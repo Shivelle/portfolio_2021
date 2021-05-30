@@ -42,7 +42,26 @@ export default {
     // https://go.nuxtjs.dev/buefy
     'nuxt-buefy',
     // https://go.nuxtjs.dev/content
-    '@nuxt/content'
+    '@nuxt/content', 
+    [
+      'nuxt-i18n',
+       {
+         locales: [
+           {
+              code: 'de',
+              iso: 'de-DE',
+              name: 'Deutsch',
+            },
+            {
+              code: 'en',
+              iso: 'en-US',
+              name: 'English',
+            }
+         ],
+         defaultLocale: 'de',
+         noPrefixDefaultLocale: true,
+       }
+    ]
   ],
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
