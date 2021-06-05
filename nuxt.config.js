@@ -46,20 +46,27 @@ export default {
     [
       'nuxt-i18n',
        {
+        strategy: 'no_prefix',
+        defaultLocale: 'de',
          locales: [
-           {
-              code: 'de',
-              iso: 'de-DE',
-              name: 'Deutsch',
-            },
             {
               code: 'en',
               iso: 'en-US',
               name: 'English',
-            }
+            },
+            {
+              code: 'de',
+              iso: 'de-DE',
+              name: 'Deutsch',
+            },
          ],
-         defaultLocale: 'de',
-         noPrefixDefaultLocale: true,
+         vueI18n: {
+          fallbackLocale: 'de',
+          messages: {
+            de: require('./locales/de.json'),
+            en: require('./locales/en.json')         
+          },
+        },
        }
     ]
   ],
