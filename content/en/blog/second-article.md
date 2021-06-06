@@ -1,8 +1,8 @@
 ---
-title: Hello world
+title: A second article
 category: web
 description: This is a test article to test the English version of the blog
-media: https://picsum.photos/200/300
+media: http://lorempixel.com/400/200/
 ---
 
 ## Markdown Test
