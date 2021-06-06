@@ -1,22 +1,26 @@
 <template>
   <div class="column">
     <div class="card">
-      <header class="card-header">
-        <p class="card-header-title has-text-grey">
-          {{ title }}
-        </p>
-      </header>
+      <div class="card-image">
+        <b-image
+          :src="image"
+          ratio="16by9"
+          :alt="title"
+          lazy
+        />
+      </div>
       <div class="card-content">
-        <div class="content has-text-centered">
-          <b-icon
-            :icon="icon"
-            size="is-large"
-            type="is-primary"
-          />
+        <div class="content">
+          <h3 class="title is-4">
+            {{ title }}
+          </h3>
+          <p>
+            {{ description }}
+          </p>
         </div>
       </div>
       <footer class="card-footer">
-        <div class="card-footer-item">
+        <div class="card-footer-item level-left">
           <span>
             <slot />
           </span>
@@ -34,6 +38,14 @@ export default {
       required: true
     },
     icon: {
+      type: String,
+      required: false
+    },
+    image: {
+      type: String,
+      required: true
+    },
+    description: {
       type: String,
       required: true
     }
