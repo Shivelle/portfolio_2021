@@ -42,13 +42,13 @@ export default {
     // https://go.nuxtjs.dev/buefy
     'nuxt-buefy',
     // https://go.nuxtjs.dev/content
-    '@nuxt/content', 
+    '@nuxt/content',
     [
       'nuxt-i18n',
-       {
+      {
         strategy: 'prefix_and_default',
         defaultLocale: 'de',
-         locales: [
+          locales: [
             {
               code: 'en',
               iso: 'en-US',
@@ -59,15 +59,15 @@ export default {
               iso: 'de-DE',
               name: 'Deutsch',
             },
-         ],
-         vueI18n: {
+          ],
+          vueI18n: {
           fallbackLocale: 'de',
           messages: {
             de: require('./locales/de.json'),
             en: require('./locales/en.json')         
           },
-         }
-       }
+          }
+      }
     ]
   ],
 
