@@ -46,7 +46,7 @@ export default {
     [
       'nuxt-i18n',
        {
-        strategy: 'no_prefix',
+        strategy: 'prefix_and_default',
         defaultLocale: 'de',
          locales: [
             {
@@ -66,7 +66,7 @@ export default {
             de: require('./locales/de.json'),
             en: require('./locales/en.json')         
           },
-        },
+         }
        }
     ]
   ],
