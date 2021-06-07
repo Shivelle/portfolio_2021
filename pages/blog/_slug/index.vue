@@ -1,7 +1,16 @@
 <template>
-  <div class="container mx-auto pt-6">
+  <div class="content mt-5">
     <article v-if="post">
-      <nuxt-content class="text-gray-800" :document="post" />
+      <h1>
+        {{ post.title }}
+      </h1>
+      <b-image
+        :src="post.media"
+        ratio="2by1"
+        :alt="post.title"
+        class="my-4 mx-0"
+      />
+      <nuxt-content class="post" :document="post" />
     </article>
   </div>
 </template>
