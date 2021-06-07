@@ -37,10 +37,6 @@ export default {
       type: String,
       required: true
     },
-    icon: {
-      type: String,
-      required: false
-    },
     image: {
       type: String,
       required: true
