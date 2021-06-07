@@ -5,20 +5,7 @@ description: Nur ein kleiner Markdown-Test.
 media: https://images.unsplash.com/photo-1543285198-3af15c4592ce?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80
 ---
 
-
----
-__Advertisement :)__
-
-- __[pica](https://nodeca.github.io/pica/demo/)__ - high quality and fast image
-  resize in browser.
-- __[babelfish](https://github.com/nodeca/babelfish/)__ - developer friendly
-  i18n with plurals support and easy syntax.
-
-You will like those projects!
-
----
-
-# h1 Heading 8-)
+# h1 Heading :-P
 ## h2 Heading
 ### h3 Heading
 #### h4 Heading
