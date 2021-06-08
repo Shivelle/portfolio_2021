@@ -48,25 +48,25 @@ export default {
       {
         strategy: 'prefix_and_default',
         defaultLocale: 'de',
-          locales: [
-            {
-              code: 'en',
-              iso: 'en-US',
-              name: 'English',
-            },
-            {
-              code: 'de',
-              iso: 'de-DE',
-              name: 'Deutsch',
-            },
-          ],
-          vueI18n: {
+        locales: [
+          {
+            code: 'en',
+            iso: 'en-US',
+            name: 'English'
+          },
+          {
+            code: 'de',
+            iso: 'de-DE',
+            name: 'Deutsch'
+          }
+        ],
+        vueI18n: {
           fallbackLocale: 'de',
           messages: {
             de: require('./locales/de.json'),
-            en: require('./locales/en.json')         
-          },
+            en: require('./locales/en.json')
           }
+        }
       }
     ]
   ],
