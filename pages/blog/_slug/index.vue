@@ -31,3 +31,9 @@ export default {
   }
 }
 </script>
+
+<style lang="css">
+  a .icon-link {
+    display: none;
+  }
+</style>
