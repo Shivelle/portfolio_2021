@@ -42,11 +42,43 @@ export default {
     // https://go.nuxtjs.dev/buefy
     'nuxt-buefy',
     // https://go.nuxtjs.dev/content
-    '@nuxt/content'
+    '@nuxt/content',
+    [
+      'nuxt-i18n',
+      {
+        strategy: 'prefix_and_default',
+        defaultLocale: 'de',
+        locales: [
+          {
+            code: 'en',
+            iso: 'en-US',
+            name: 'English'
+          },
+          {
+            code: 'de',
+            iso: 'de-DE',
+            name: 'Deutsch'
+          }
+        ],
+        vueI18n: {
+          fallbackLocale: 'de',
+          messages: {
+            de: require('./locales/de.json'),
+            en: require('./locales/en.json')
+          }
+        }
+      }
+    ]
   ],
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
-  content: {},
+  content: {
+    markdown: {
+      remarkPlugins: [
+        ['remark-emoji', { emoticon: true }]
+      ]
+    }
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
