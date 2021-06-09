@@ -46,7 +46,7 @@ export default {
     [
       'nuxt-i18n',
       {
-        strategy: 'prefix_and_default',
+        strategy: 'prefix',
         defaultLocale: 'de',
         locales: [
           {
