@@ -1,9 +1,7 @@
 <template>
-  <div>
+  <div class="is-family-monospace">
     <Nav />
-    <div class="container column is-10">
-      <nuxt />
-    </div>
+    <nuxt />
   </div>
 </template>
 
