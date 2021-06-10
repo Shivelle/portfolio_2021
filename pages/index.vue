@@ -1,6 +1,5 @@
 <template>
-  <section class="section">
-  </section>
+  <Hero />
 </template>
 
 <script>
