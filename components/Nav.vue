@@ -1,10 +1,14 @@
 <template>
-  <nav class="navbar" role="navigation" aria-label="main navigation">
+  <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
       <nuxt-link
       :to="localePath('/')"
       class="navbar-item">
         <img src="~assets/img/svg/bird.svg" width="112" height="28">
+        <div class="has-text-white">
+          <div class="is-size-4 has-text-weight-bold">Sarah Leidisch</div>
+          <div class="is-size-6">Freelancer</div>
+        </div>
       </nuxt-link>
 
       <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="mainNav">
@@ -18,13 +22,20 @@
       <div class="navbar-start">
         <nuxt-link
         :to="localePath('blog')"
-        class="navbar-item">
+        class="navbar-item has-text-white">
           Blog
         </nuxt-link>
-        <a class="navbar-item">
+        <a class="navbar-item has-text-white">
           Kontakt
         </a>
       </div>
     </div>
   </nav>
 </template>
+
+<style scoped>
+  .navbar {
+    background-color: transparent;
+    background-image: none;
+  }
+</style>
