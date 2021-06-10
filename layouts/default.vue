@@ -1,7 +1,8 @@
 <template>
-  <div class="is-family-monospace">
+  <div class="is-family-monospace bg-dark">
     <Nav />
     <nuxt />
+    <Footer />
   </div>
 </template>
 
@@ -20,3 +21,9 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+  .bg-dark {
+    background-color: #272727;
+  }
+</style>

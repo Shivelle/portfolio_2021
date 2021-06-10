@@ -1,5 +1,10 @@
 <template>
-  <Hero />
+  <section class="section">
+    <Hero />
+    <Skills />
+    <Projects />
+    <Contact />
+  </section>
 </template>
 
 <script>
