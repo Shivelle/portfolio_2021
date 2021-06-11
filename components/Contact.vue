@@ -57,8 +57,17 @@ export default {
 }
 </script>
 
-<style scoped>
-  .field.label::before {
+<style lang="scss" scoped>
+  .select select,
+  .taginput .taginput-container.is-focusable,
+  .textarea,
+  .input {
+    border: none;
+    outline: none;
+    background-color: rgba(#fff, 0.5);
+  }
+
+  .label {
     color: #ffa726;
   }
 </style>

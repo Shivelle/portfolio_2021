@@ -1,6 +1,6 @@
 <template>
   <section class="hero is-fullheight">
-    <div class="hero-img"></div>
+    <div class="hero-img" />
     <div class="hero-body">
       <div class="container">
         <h4 class="subtitle has-text-white mb-5">
@@ -28,6 +28,7 @@
     filter: blur(8px);
     -webkit-filter: blur(8px);
     transform: scale(1.1);
+    opacity: 0.05;
   }
 
   .hero-body {
