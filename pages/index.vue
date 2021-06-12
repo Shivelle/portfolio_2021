@@ -3,6 +3,7 @@
     <Hero />
     <Skills />
     <Projects />
+    <Service />
     <Contact />
   </section>
 </template>

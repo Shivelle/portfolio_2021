@@ -1,45 +1,60 @@
 <template>
   <section class="section">
-    <h3 class="is-size-2">Kontakt</h3>
+    <h2 class="is-size-2">
+      Kontakt
+    </h2>
     <form
-    name="portfolio"
-    class="js-form"
-    novalidate="novalidate"
-    netlify-honeypot="bot-field"
-    method="POST"
-    data-netlify-recaptcha="true"
-    netlify>
+      name="portfolio"
+      class="js-form"
+      novalidate="novalidate"
+      netlify-honeypot="bot-field"
+      method="POST"
+      data-netlify-recaptcha="true"
+      netlify
+    >
       <div class="row">
         <p class="is-hidden">
-          <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+          <label>Don’t fill this out if you're human: <input name="bot-field"></input></label>
         </p>
-        <b-field label="Name" :label-position="labelPosition">
-          <b-input type="text" name="name" required="" placeholder="Name">
-          </b-input>
+        <b-field
+          label="Name"
+          :label-position="labelPosition"
+        >
+          <b-input type="text" name="name" required="" placeholder="Aron Awesome" />
         </b-field>
-        <b-field label="E-Mail">
-          <b-input type="email" name="email" placeholder="E-Mail">
-          </b-input>
+        <b-field
+          label="E-Mail"
+          :label-position="labelPosition"
+        >
+          <b-input type="email" name="email" placeholder="you@example.com" />
         </b-field>
-        <b-field class="field">
-          <b-input type="text" name="subject" placeholder="Betreff (optinal)"></b-input>
+        <b-field
+          label="Betreff"
+          :label-position="labelPosition"
+        >
+          <b-input type="text" name="subject" placeholder="Anfrage" />
         </b-field>
-        <b-field class="field">
+        <b-field
+          label="Nachricht"
+          :label-position="labelPosition"
+        >
           <b-input
-           type="textarea"
-           name="message"
-           required=""
-           placeholder="Nachricht*"
-           aria-required="true"></b-input>
-          <div data-netlify-recaptcha="true"></div>
+            type="textarea"
+            name="message"
+            required
+            placeholder="Hey Sarah! Let's talk about my new website. Cheers, Tom"
+          />
+          <div data-netlify-recaptcha="true" />
         </b-field>
         <b-field>
           <p class="control">
             <b-button
-            class="button is-primary"
-            type="submit"
-            value="Send"
-            >Nachricht senden</b-button>
+              class="button is-primary"
+              type="submit"
+              value="Send"
+            >
+              Nachricht senden
+            </b-button>
           </p>
         </b-field>
       </div>
@@ -58,16 +73,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-  .select select,
-  .taginput .taginput-container.is-focusable,
-  .textarea,
-  .input {
-    border: none;
-    outline: none;
-    background-color: rgba(#fff, 0.5);
+  form {
+    .label {
+      color: #ffa726;
+    }
   }
 
-  .label {
-    color: #ffa726;
-  }
 </style>

@@ -4,8 +4,8 @@
       <nuxt-link
       :to="localePath('/')"
       class="navbar-item">
-        <img src="~assets/img/svg/bird.svg" width="112" height="28">
-        <div class="has-text-white">
+        <img src="~assets/img/svg/bird.svg" width="80" height="28">
+        <div>
           <div class="is-size-4 has-text-weight-bold">Sarah Leidisch</div>
           <div class="is-size-6">Freelancer</div>
         </div>
@@ -22,10 +22,10 @@
       <div class="navbar-start">
         <nuxt-link
         :to="localePath('blog')"
-        class="navbar-item has-text-white">
+        class="navbar-item">
           Blog
         </nuxt-link>
-        <a class="navbar-item has-text-white">
+        <a class="navbar-item">
           Kontakt
         </a>
       </div>

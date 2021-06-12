@@ -3,12 +3,12 @@
     <div class="hero-img" />
     <div class="hero-body">
       <div class="container">
-        <h4 class="subtitle has-text-white mb-5">
+        <p class="subtitle mb-5">
           Willkommen <br>
           in meinem virtuellen Zuhause
-        </h4>
-        <h1 class="title has-text-white is-size-1 is-uppercase has-text-weight-bold mt-5">
-          <span class="has-highlight-color">HALLO</span> ICH BIN <br>SARAH.
+        </p>
+        <h1 class="title is-size-1 is-uppercase has-text-weight-bold mt-5">
+          <span class="txt-orange">HALLO</span> ICH BIN <br>SARAH.
         </h1>
       </div>
     </div>
@@ -28,14 +28,10 @@
     filter: blur(8px);
     -webkit-filter: blur(8px);
     transform: scale(1.1);
-    opacity: 0.05;
+    opacity: 0.1;
   }
 
   .hero-body {
     z-index: 2;
-  }
-
-  .has-highlight-color {
-    color: #ffa726;
   }
 </style>
