@@ -1,11 +1,14 @@
 <template>
-  <section class="section">
+  <div>
     <Hero />
     <Skills />
     <Projects />
     <Service />
-    <Contact />
-  </section>
+
+    <section class="section">
+      <ContactForm />
+    </section>
+  </div>
 </template>
 
 <script>
