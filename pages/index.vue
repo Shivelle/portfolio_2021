@@ -6,7 +6,9 @@
     <Service />
 
     <section class="section">
-      <ContactForm />
+      <div class="container">
+        <ContactForm />
+      </div>
     </section>
   </div>
 </template>
