@@ -1,5 +1,6 @@
 <template>
   <div class="is-family-monospace">
+    <LangSwitch />
     <Nav />
     <nuxt />
     <Footer />
@@ -18,31 +19,19 @@ export default {
         }
       ]
     }
+  },
+  head () {
+    return {
+      bodyAttrs: {
+        class: 'is-relative'
+      }
+    }
   }
 }
 </script>
 
 <style lang="scss">
   // global styling
-  // colors
-  $dark: #272727;
-  $orange: #ffa726;
-
-  .bg-dark {
-    background-color: $dark;
-  }
-
-  .bg-dark-light {
-    background-color: rgba($dark, 0.5);
-  }
-
-  .bg-orange {
-    background-color: $orange;
-  }
-
-  .txt-orange {
-    color: $orange;
-  }
 
   // elements
   .button.is-primary {
