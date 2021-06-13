@@ -1,41 +1,38 @@
 <template>
-  <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
-    <div class="navbar-brand">
-      <nuxt-link
-      :to="localePath('/')"
-      class="navbar-item">
+  <b-navbar
+    :fixed-top="true"
+    :transparent="true"
+  >
+    <template #brand>
+      <b-navbar-item tag="router-link" :to="{ path: '/' }">
         <img src="~assets/img/svg/bird.svg" width="80" height="28">
         <div>
-          <div class="is-size-4 has-text-weight-bold">Sarah Leidisch</div>
-          <div class="is-size-6">Freelancer</div>
+          <div class="is-size-4 has-text-weight-bold">
+            Sarah Leidisch
+          </div>
+          <div class="is-size-6">
+            Freelancer
+          </div>
         </div>
-      </nuxt-link>
+      </b-navbar-item>
+    </template>
 
-      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="mainNav">
-        <span aria-hidden="true" />
-        <span aria-hidden="true" />
-        <span aria-hidden="true" />
-      </a>
-    </div>
-
-    <div id="mainNav" class="navbar-end">
-      <div class="navbar-start">
-        <nuxt-link
+    <template #end>
+      <nuxt-link
         :to="localePath('blog')"
-        class="navbar-item">
-          Blog
-        </nuxt-link>
-        <a class="navbar-item">
-          Kontakt
-        </a>
-      </div>
-    </div>
-  </nav>
+        class="navbar-item"
+      >
+        Blog
+      </nuxt-link>
+      <a class="navbar-item">
+        Kontakt
+      </a>
+    </template>
+  </b-navbar>
 </template>
 
-<style scoped>
-  .navbar {
-    background-color: transparent;
-    background-image: none;
+<style lang="scss" scoped>
+  nav.navbar.is-fixed-top {
+    background: transparent;
   }
 </style>
