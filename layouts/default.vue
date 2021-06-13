@@ -32,12 +32,11 @@ export default {
 
 <style lang="scss">
   // global styling
-
-  // elements
-  .button.is-primary {
-    background-color: $orange;
+  body {
+    padding-top: 0 !important; // buefy fixed nav fix
   }
 
+  // elements
   .vertical-title {
     position: absolute;
     white-space: nowrap;
