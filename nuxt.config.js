@@ -20,7 +20,7 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
-    '~assets/scss/colors.scss'
+    '~assets/scss/app.scss'
   ],
 
   styleResources: {

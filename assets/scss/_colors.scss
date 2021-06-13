@@ -1,0 +1,20 @@
+// colors
+$dark: #272727;
+$dark-lighter: #7e7e7e;
+$orange: #ffa726;
+
+.bg-dark {
+  background-color: $dark !important;
+}
+
+.bg-dark-lighter {
+  background-color: $dark-lighter !important;
+}
+
+.bg-highlight {
+  background-color: $orange !important;
+}
+
+.txt-highlight {
+  color: $orange !important;
+}

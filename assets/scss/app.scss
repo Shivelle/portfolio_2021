@@ -1,0 +1,10 @@
+@import "~bulma/sass/utilities/_all"; // -- (1)
+
+// custom styles
+@import "colors";
+@import "defaults";
+@import "bulma-customized";
+
+// import bulma last
+@import "~bulma";
+@import "~buefy/src/scss/buefy";

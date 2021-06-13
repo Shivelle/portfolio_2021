@@ -1,0 +1,8 @@
+a {
+  color: $orange !important;
+
+  &:hover,
+  &:focus {
+    opacity: 0.8;
+  }
+}
