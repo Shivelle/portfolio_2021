@@ -2,6 +2,7 @@
   <b-navbar
     :fixed-top="true"
     :transparent="true"
+    :spaced="true"
   >
     <template #brand>
       <b-navbar-item tag="router-link" :to="{ path: '/' }">
@@ -20,11 +21,11 @@
     <template #end>
       <nuxt-link
         :to="localePath('blog')"
-        class="navbar-item"
+        class="navbar-item has-text-white"
       >
         Blog
       </nuxt-link>
-      <a class="navbar-item">
+      <a class="navbar-item has-text-white">
         Kontakt
       </a>
     </template>
@@ -34,5 +35,9 @@
 <style lang="scss" scoped>
   nav.navbar.is-fixed-top {
     background: transparent;
+  }
+
+  .navbar-brand img {
+    transform: scale(1.4);
   }
 </style>

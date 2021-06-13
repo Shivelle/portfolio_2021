@@ -1,5 +1,5 @@
 <template>
-  <section class="section has-text-white is-fullheight">
+  <section class="section has-text-white is-fullheight bg-dark-lighter">
     <div class="container">
       <h2 class="is-size-2 is-uppercase">
         Projekte
