@@ -6,13 +6,13 @@
     <template #brand>
       <b-navbar-item tag="router-link" :to="{ path: '/' }">
         <img src="~assets/img/svg/bird.svg" width="80" height="28">
-        <div>
-          <div class="is-size-4 has-text-weight-bold">
+        <div class="has-text-white">
+          <h4 class="is-size-4 has-text-weight-bold">
             Sarah Leidisch
-          </div>
-          <div class="is-size-6">
+          </h4>
+          <h5 class="is-size-6">
             Freelancer
-          </div>
+          </h5>
         </div>
       </b-navbar-item>
     </template>
