@@ -1,5 +1,5 @@
 <template>
-  <div class="is-family-monospace">
+  <div class="is-family-monospace bg-dark">
     <LangSwitch />
     <Nav />
     <nuxt />
