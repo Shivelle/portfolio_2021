@@ -1,3 +1,8 @@
-.is-primary {
-  background-color: orange !important;
-}
+// TODO: fix broken color variables
+
+$input-color: #fff;
+$input-border-color: transparent;
+$input-radius: 0;
+$input-background-color: #333;
+$input-focus-border-color: #ffa726;
+$input-hover-border-color: #ffa726;
