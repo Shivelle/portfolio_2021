@@ -1,7 +1,16 @@
 // colors
 $dark: #272727;
-$dark-lighter: #7e7e7e;
+$dark-lighter: #333;
 $orange: #ffa726;
+
+$primary: $orange;
+
+/* ignore styelint for buefy functions */
+/* stylelint-disable function-name-case */
+$primary-light: findLightColor($primary);
+$primary-dark: findDarkColor($primary);
+$primary-invert: findColorInvert($primary);
+/* stylelint-enable function-name-case */
 
 .bg-dark {
   background-color: $dark !important;
