@@ -7,22 +7,37 @@
           <h2 class="is-size-2 is-uppercase mb-6 mt-3">
             Ich <br><span class="txt-highlight">gestalte & entwickle</span><br> ansprechende<br> Nutzererlebnisse.
           </h2>
-          <p>Mit vier Jahren Erfahrung in der Entwicklung anspruchsvoller WebApps und Landingpages.</p>
+          <p class="has-text-grey-light">Mit vier Jahren Erfahrung in der Entwicklung anspruchsvoller WebApps und Landingpages.</p>
         </div>
 
-        <div class="column">
-          <h4 class="is-size-6">
-            Frontend Entwicklung
-          </h4>
-          <b-progress size="is-small mb-2" :value="70" />
-          <h4 class="is-size-6">
-            Backend Entwicklung
-          </h4>
-          <b-progress size="is-small mb-2" :value="60" />
-          <h4 class="is-size-6">
-            Design
-          </h4>
-          <b-progress size="is-small mb-2" :value="70" />
+        <div class="column has-text-grey-light">
+          <div class="is-clearfix p-1">
+            <div class="is-size-6 is-pulled-left">
+              Frontend Entwicklung
+            </div>
+            <div class="is-size-6 is-pulled-right">
+              70%
+            </div>
+          </div>
+          <b-progress size="is-small mb-4" :value="70" type="is-primary" />
+          <div class="is-clearfix p-1">
+            <div class="is-size-6 is-pulled-left">
+              Backend Entwicklung
+            </div>
+            <div class="is-size-6 is-pulled-right">
+              60%
+            </div>
+          </div>
+          <b-progress size="is-small mb-4" :value="60" type="is-primary" />
+          <div class="is-clearfix p-1">
+            <div class="is-size-6 is-pulled-left">
+              Design
+            </div>
+            <div class="is-size-6 is-pulled-right">
+              70%
+            </div>
+          </div>
+          <b-progress size="is-small mb-4" :value="70" type="is-primary" />
         </div>
       </div>
     </div>
