@@ -39,7 +39,7 @@
       <b-field
         label=""
         :label-position="labelPosition"
-        class="has-fullwidth"
+        class="mt-5"
       >
         <b-input
           type="textarea"
@@ -47,12 +47,12 @@
           required
           placeholder="Hey Sarah! Let's talk about my new website. Cheers, Tom"
         />
-        <div data-netlify-recaptcha="true" />
       </b-field>
+      <div data-netlify-recaptcha="true" />
       <b-field>
         <p class="control">
           <b-button
-            class="button is-primary"
+            class="button is-primary mt-4"
             type="submit"
             value="Send"
           >
