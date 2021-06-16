@@ -1,24 +1,26 @@
 <template>
   <section class="section has-text-white is-fullheight bg-dark-lighter">
     <div class="container">
-      <h2 class="is-size-2 is-uppercase">
+      <h2 class="is-size-2 mb-6 mt-3 is-uppercase">
         Projekte
       </h2>
       <p class="has-text-grey-light">
         An diesen Projekten war ich alleine, aber auch als Teil eines Teams, beteiligt.
       </p>
       <!-- TODO: Update Project Grid -->
-      <div class="tile is-ancestor is-vertical">
+      <div class="tile is-ancestor is-vertical mt-6">
         <div class="tile is-parent">
-          <div class="tile is-child p-4">
+          <article class="tile is-child p-4 bg-dark">
             <a href="https://echtpost.de/" target="_blank">
               <div class="">
                 <h3 class="has-text-white is-size-3">Postkartenversand</h3>
                 <div class="has-text-grey-light">Landingpage Redesign</div>
               </div>
             </a>
-          </div>
-          <div class="tile is-child p-4">
+          </article>
+        </div>
+        <div class="tile is-parent">
+          <article class="tile is-child p-4 bg-dark">
             <a href="https://centralstationcrm.de/" target="_blank">
               <div class="">
                 <h3 class="has-text-white is-size-3">CRM</h3>
@@ -27,8 +29,10 @@
                 <div class="has-text-grey-light">Custom Captcha Feature</div>
               </div>
             </a>
-          </div>
-          <div class="tile is-child p-4">
+          </article>
+        </div>
+        <div class="tile is-parent">
+          <article class="tile is-child p-4 bg-dark">
             <a href="https://www.hn-feinmahltechnik.de/" target="_blank">
               <div class="">
                 <h3 class="has-text-white is-size-3">Vermahlungsdienstleister</h3>
@@ -38,11 +42,11 @@
                 <div class="has-text-grey-light">Hosting- & E-Mail-Setup</div>
               </div>
             </a>
-          </div>
+          </article>
         </div>
 
         <div class="tile is-parent">
-          <div class="tile is-child p-4">
+          <article class="tile is-child p-4 bg-dark">
             <a href="https://centralplanner.de/" target="_blank">
               <div class="">
                 <h3 class="has-text-white is-size-3">Buchungssystem</h3>
@@ -51,15 +55,17 @@
                 <div class="has-text-grey-light">Custom Captcha Feature</div>
               </div>
             </a>
-          </div>
-          <div class="tile is-child p-4">
+          </article>
+        </div>
+        <div class="tile is-parent">
+          <article class="tile is-child p-4 bg-dark">
             <a href="https://centraldesk.de/" target="_blank">
               <div class="">
                 <h3 class="has-text-white is-size-3">Supportsystem</h3>
                 <div class="has-text-grey-light">Mehrsprachige Signaturen</div>
               </div>
             </a>
-          </div>
+          </article>
         </div>
       </div>
     </div>
