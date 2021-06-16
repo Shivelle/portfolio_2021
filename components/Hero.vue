@@ -15,7 +15,11 @@
   </section>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
+  .hero {
+    @include prefix('box-shadow', 'inset 0 -7px 0 #ffa726');
+  }
+
   .hero-img {
     background-image: url('~/assets/img/hero-img.jpg');
     position: absolute;
@@ -25,10 +29,9 @@
     height: 100vh;
     background-size: cover;
     background-position: center;
-    filter: blur(8px);
-    -webkit-filter: blur(8px);
-    transform: scale(1.1);
-    opacity: 0.3;
+    opacity: 0.2;
+
+    @include prefix('filter', 'blur(4px)');
   }
 
   .hero-body {
