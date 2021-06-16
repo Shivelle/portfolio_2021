@@ -4,6 +4,7 @@
     <Skills />
     <Projects />
     <Service />
+    <Code />
 
     <section class="section">
       <div class="container">
