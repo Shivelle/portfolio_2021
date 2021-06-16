@@ -11763,6 +11763,17 @@
   dependencies:
     "stylelint-config-recommended" "^5.0.0"
 
+"stylelint-scss@^3.19.0":
+  "integrity" "sha512-Ic5bsmpS4wVucOw44doC1Yi9f5qbeVL4wPFiEOaUElgsOuLEN6Ofn/krKI8BeNL2gAn53Zu+IcVV4E345r6rBw=="
+  "resolved" "https://registry.npmjs.org/stylelint-scss/-/stylelint-scss-3.19.0.tgz"
+  "version" "3.19.0"
+  dependencies:
+    "lodash" "^4.17.15"
+    "postcss-media-query-parser" "^0.2.3"
+    "postcss-resolve-nested-selector" "^0.1.1"
+    "postcss-selector-parser" "^6.0.2"
+    "postcss-value-parser" "^4.1.0"
+
 "stylelint-webpack-plugin@^2.0.0":
   "integrity" "sha512-WHdaWCp4NANcTcltuRjZCjM7jVhdaSg7ag/sQLE22Bf84g5nQC4nBBK8FBdHAssJsho0fDRiwyrzGsIPO+b94A=="
   "resolved" "https://registry.npmjs.org/stylelint-webpack-plugin/-/stylelint-webpack-plugin-2.1.1.tgz"
@@ -11772,7 +11783,7 @@
     "micromatch" "^4.0.2"
     "schema-utils" "^3.0.0"
 
-"stylelint@^13.0.0", "stylelint@^13.13.0", "stylelint@^13.13.1":
+"stylelint@^13.0.0", "stylelint@^13.13.0", "stylelint@^13.13.1", "stylelint@^8.0.0 || ^9.0.0 || ^10.0.0 || ^11.0.0 || ^12.0.0 || ^13.0.0":
   "integrity" "sha512-Mv+BQr5XTUrKqAXmpqm6Ddli6Ief+AiPZkRsIrAoUKFuq/ElkUh9ZMYxXD0iQNZ5ADghZKLOWz1h7hTClB7zgQ=="
   "resolved" "https://registry.npmjs.org/stylelint/-/stylelint-13.13.1.tgz"
   "version" "13.13.1"
