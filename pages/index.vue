@@ -7,6 +7,9 @@
 
     <section class="section">
       <div class="container">
+        <h2 class="is-size-2 has-text-white mb-6 mt-3">
+          Reden wir
+        </h2>
         <ContactForm />
       </div>
     </section>
