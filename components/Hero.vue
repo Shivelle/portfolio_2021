@@ -8,7 +8,7 @@
           in meinem virtuellen Zuhause
         </p>
         <h1 class="title is-size-1 is-uppercase has-text-weight-bold mt-5 has-text-white">
-          <span class="txt-highlight">HALLO</span> ICH BIN <br>SARAH.
+          <span class="txt-highlight">Hallo</span> ich bin Sarah.
         </h1>
       </div>
     </div>
