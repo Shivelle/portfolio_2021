@@ -1,5 +1,5 @@
 <template>
-  <section class="hero is-fullheight">
+  <section class="hero is-fullheight is-clipped">
     <div class="hero-img" />
     <div class="hero-body">
       <div class="container">
@@ -16,10 +16,6 @@
 </template>
 
 <style lang="scss" scoped>
-  .hero {
-    @include prefix('box-shadow', 'inset 0 -7px 0 #ffa726');
-  }
-
   .hero-img {
     background-image: url('~/assets/img/hero-img.jpg');
     position: absolute;
