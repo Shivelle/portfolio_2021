@@ -28,3 +28,9 @@ export default {
   }
 }
 </script>
+
+<style lang="scss">
+  section {
+    min-height: 100vh !important;
+  }
+</style>
