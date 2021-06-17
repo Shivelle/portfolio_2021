@@ -39,7 +39,9 @@ export default {
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
     // https://go.nuxtjs.dev/stylelint
-    '@nuxtjs/stylelint-module'
+    '@nuxtjs/stylelint-module',
+    '@nuxtjs/style-resources',
+    '@nuxtjs/fontawesome'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -73,8 +75,7 @@ export default {
           }
         }
       }
-    ],
-    '@nuxtjs/style-resources'
+    ]
   ],
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
@@ -83,6 +84,13 @@ export default {
       remarkPlugins: [
         ['remark-emoji', { emoticon: true }]
       ]
+    }
+  },
+
+  fontawesome: {
+    icons: {
+      solid: true,
+      brands: true
     }
   },
 
