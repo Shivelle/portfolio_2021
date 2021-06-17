@@ -18,6 +18,23 @@
       </b-navbar-item>
     </template>
 
+    <template #start>
+      <div class="level has-text-centered px-6 is-mobile">
+        <b-navbar-item href="#">
+          <font-awesome-icon :icon="['fab', 'github']" />
+        </b-navbar-item>
+        <b-navbar-item href="#">
+          <font-awesome-icon :icon="['fab', 'codepen']" />
+        </b-navbar-item>
+        <b-navbar-item href="#">
+          <font-awesome-icon :icon="['fab', 'twitter']" />
+        </b-navbar-item>
+        <b-navbar-item href="#">
+          <font-awesome-icon :icon="['fab', 'linkedin']" />
+        </b-navbar-item>
+      </div>
+    </template>
+
     <template #end>
       <nuxt-link
         :to="localePath('blog')"
