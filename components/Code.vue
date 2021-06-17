@@ -14,8 +14,8 @@
           <b-carousel>
             <b-carousel-item v-for="(carousel, i) in carousels" :key="i">
               <section :class="`hero is-medium is-${carousel.color}`">
-                <div class="hero-body has-text-centered">
-                  <h3 class="title is-size-3 has-text-white">
+                <div class="hero-body has-text-left">
+                  <h3 class="title is-size-3 mb-3 has-text-white">
                     {{ carousel.title }}
                   </h3>
                   <p class="has-text-grey-light">
