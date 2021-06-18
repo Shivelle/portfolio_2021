@@ -11,59 +11,64 @@
       <!-- TODO: Update Project Grid -->
       <div class="is-flex is-flex-wrap-wrap mt-6">
         <div class="tile is-parent">
-          <article class="tile is-child p-4 border-white is-clickable ep">
-            <a href="https://echtpost.de/" target="_blank">
-              <div class="has-text-white">
-                <h3 class="is-size-3 has-text-weight-semibold mb-3">Postkartenversand</h3>
-                <div class="">Landingpage Redesign</div>
-              </div>
-            </a>
-          </article>
-        </div>
-        <div class="tile is-parent">
-          <article class="tile is-child p-4 border-white is-clickable crm">
+          <article class="tile is-child pt-4 pb-5 px-6 border-white is-clickable crm">
             <a href="https://centralstationcrm.de/" target="_blank">
               <div class="has-text-white">
                 <h3 class="is-size-3 has-text-weight-semibold mb-3">Customer Relationship Management</h3>
-                <div class="">Redesign Backend</div>
-                <div class="">Diverse Landingpages</div>
-                <div class="">Custom Captcha Feature</div>
+                <div class="hr-bottom mb-4 bg-crm" />
+                <div class="mb-3">Redesign Backend</div>
+                <div class="mb-3">Diverse Landingpages</div>
+                <div class="mb-3">Custom Captcha Feature</div>
               </div>
             </a>
           </article>
         </div>
         <div class="tile is-parent">
-          <article class="tile is-child p-4 border-white is-clickable hn">
+          <article class="tile is-child pt-4 pb-5 px-6 border-white is-clickable hn">
             <a href="https://www.hn-feinmahltechnik.de/" target="_blank">
               <div class="has-text-white">
                 <h3 class="is-size-3 has-text-weight-semibold mb-3">Vermahlungsdienstleister</h3>
-                <div class="">Homepage-Design</div>
-                <div class="">Visitenkarten-Design</div>
-                <div class="">WordPress-Template-Entwicklung</div>
-                <div class="">Hosting- & E-Mail-Setup</div>
+                <div class="hr-bottom mb-4 bg-hn" />
+                <div class="mb-3">Homepage-Design</div>
+                <div class="mb-3">Visitenkarten-Design</div>
+                <div class="mb-3">WordPress-Template-Entwicklung</div>
+                <div class="mb-3">Hosting- & E-Mail-Setup</div>
               </div>
             </a>
           </article>
         </div>
 
         <div class="tile is-parent">
-          <article class="tile is-child p-4 border-white is-clickable cp">
+          <article class="tile is-child pt-4 pb-5 px-6 border-white is-clickable cp">
             <a href="https://centralplanner.de/" target="_blank">
               <div class="has-text-white">
                 <h3 class="is-size-3 has-text-weight-semibold mb-3">Buchungssystem</h3>
-                <div class="">Redesign Backend</div>
-                <div class="">Auto-Mailing Features</div>
-                <div class="">Custom Captcha Feature</div>
+                <div class="hr-bottom mb-4 bg-cp" />
+                <div class="mb-3">Redesign Backend</div>
+                <div class="mb-3">Auto-Mailing Features</div>
+                <div class="mb-3">Custom Captcha Feature</div>
               </div>
             </a>
           </article>
         </div>
         <div class="tile is-parent">
-          <article class="tile is-child p-4 border-white is-clickable cd">
+          <article class="tile is-child pt-4 pb-5 px-6 border-white is-clickable cd">
             <a href="https://centraldesk.de/" target="_blank">
               <div class="has-text-white">
                 <h3 class="is-size-3 has-text-weight-semibold mb-3">Supportsystem</h3>
-                <div class="">Mehrsprachige Signaturen</div>
+                <div class="hr-bottom mb-4 bg-cd" />
+                <div class="mb-3">Mehrsprachige Signaturen</div>
+              </div>
+            </a>
+          </article>
+        </div>
+        <div class="tile is-parent">
+          <article class="tile is-child pt-4 pb-5 px-6 border-white is-clickable ep">
+            <a href="https://echtpost.de/" target="_blank">
+              <div class="has-text-white">
+                <h3 class="is-size-3 has-text-weight-semibold mb-3">Postkartenversand</h3>
+                <div class="hr-bottom mb-4 bg-ep" />
+                <div class="mb-3">Landingpage Redesign</div>
               </div>
             </a>
           </article>
@@ -88,33 +93,35 @@
     @include prefix('filter', 'blur(4px)');
   }
 
+  .hr-bottom {
+    height: 0.6rem;
+    width: 3rem;
+
+    @include prefix('border-radius', '0.25rem');
+  }
+
   .border-white {
-    border: 2px solid white;
+    @include prefix('border', '2px solid white');
   }
 
   .ep:hover {
-    background-color: $ep;
-    opacity: 0.8;
+    @include prefix('border', '2px solid #00b9ba');
   }
 
   .cp:hover {
-    background-color: $cp;
-    opacity: 0.8;
+    @include prefix('border', '2px solid #6e96cb');
   }
 
   .cd:hover {
-    background-color: $cd;
-    opacity: 0.8;
+    @include prefix('border', '2px solid #3cbc8d');
   }
 
   .crm:hover {
-    background-color: $crm;
-    opacity: 0.8;
+    @include prefix('border', '2px solid #292a4d');
   }
 
   .hn:hover {
-    background-color: $hn;
-    opacity: 0.8;
+    @include prefix('border', '2px solid #ef8a17');
   }
 
 </style>
