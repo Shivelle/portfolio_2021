@@ -14,18 +14,59 @@
           </ul>
         </div>
         <div class="column">
-          <div class="dots-image-2">
-            <img alt="" class="img-responsive" src="images/m2.jpg">
-            <div class="dots"></div>
-            <h3 class="is-size-4">
-              <div class="is-primary">
+          <div class="dots-image pt-6 is-pulled-right">
+            <img alt="Sarah" class="image" src="~assets/img/m2.jpg">
+            <div class="dots" />
+            <div class="experience-info is-size-1 is-uppercase has-text-weight-bold is-flex">
+              <div class="experience-number">
                 4
               </div>
-              Jahre<br>Erfahrung<br>als Freelancer
-            </h3>
+              <div class="text pt-2">
+                Jahre<br>Erfahrung<br>als Freelancer
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </section>
 </template>
+
+<style lang="scss" scoped>
+.dots-image {
+  display: inline-block;
+  position: relative;
+
+  .dots {
+    position: absolute;
+    z-index: 1;
+    left: -25%;
+    bottom: -19%;
+    width: 101%;
+    top: 70%;
+    opacity: 0.9;
+    background: url(~/assets/img/bg/dots.png) 0 0 repeat;
+  }
+
+  .experience-info {
+    position: absolute;
+    left: 10%;
+    z-index: 2;
+    margin-top: -6.5rem;
+    top: 100%;
+
+    .experience-number {
+      font-weight: 600;
+      line-height: 1;
+      font-size: 10.75rem;
+      margin-right: 1.75rem;
+    }
+
+    .text {
+      font-size: 2.575rem;
+      font-weight: 600;
+      line-height: 1.25;
+    }
+  }
+}
+</style>
