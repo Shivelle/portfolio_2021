@@ -7,7 +7,9 @@
           <h2 class="is-size-2 is-uppercase mb-6 mt-3">
             Ich <br><span class="txt-highlight">gestalte & entwickle</span><br> ansprechende<br> Nutzererlebnisse.
           </h2>
-          <p class="has-text-grey-light">Mit vier Jahren Erfahrung in der Entwicklung anspruchsvoller WebApps und Landingpages.</p>
+          <p class="has-text-grey-light">
+            Mit vier Jahren Erfahrung in der Entwicklung anspruchsvoller WebApps und Landingpages.
+          </p>
         </div>
 
         <div class="column has-text-grey-light is-flex is-flex-direction-column is-justify-content-space-evenly">
