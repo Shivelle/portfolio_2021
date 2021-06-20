@@ -1,5 +1,5 @@
 <template>
-  <section class="section has-text-white is-relative is-clipped">
+  <section class="section fullpage has-text-white is-relative is-clipped">
     <div class="section-bg" />
     <div class="container">
       <h2 class="is-size-2 mb-6 mt-3 is-uppercase">

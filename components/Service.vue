@@ -1,5 +1,5 @@
 <template>
-  <section class="section has-text-white is-fullheight">
+  <section class="section fullpage has-text-white is-fullheight">
     <div class="container">
       <div class="columns">
         <div class="column">

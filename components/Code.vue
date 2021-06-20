@@ -1,5 +1,5 @@
 <template>
-  <section class="section has-text-white bg-dark-lighter is-relative">
+  <section class="section fullpage has-text-white bg-dark-lighter is-relative">
     <div class="section-bg" />
     <div class="container">
       <div class="columns">
