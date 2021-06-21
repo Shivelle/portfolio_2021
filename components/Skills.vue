@@ -1,5 +1,5 @@
 <template>
-  <section class="section fullpage has-text-white mt-6 is-fullheight">
+  <section class="section fullpage has-text-white mt-6 is-fullheight is-flex is-align-items-center">
     <div class="container">
       <div class="columns">
         <div class="column">
