@@ -15,7 +15,7 @@
     <Service />
     <Code />
 
-    <section class="section">
+    <section class="section fullpage is-flex is-align-items-center">
       <div class="container">
         <h2 class="is-size-2 has-text-white mb-6 mt-3">
           Reden wir
@@ -123,12 +123,13 @@ export default {
       height: 10px;
       background-color: #fff;
       display: block;
+      border-radius: 100%;
       margin: 1rem 0;
-      opacity: 0.6;
+      opacity: 0.8;
 
       @include prefix('transition', '0.5s ease all');
 
-      &:active {
+      &.active {
         opacity: 1;
         background-color: $orange;
 
