@@ -16,7 +16,7 @@
     "@nuxt/content": "^1.5.3",
     "core-js": "^3.14.0",
     "nuxt": "^2.15.7",
-    "nuxt-buefy": "^0.4.4",
+    "nuxt-buefy": "^0.4.8",
     "nuxt-i18n": "^6.27.0",
     "remark-emoji": "^2.2.0"
   },
