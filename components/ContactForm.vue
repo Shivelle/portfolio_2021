@@ -14,31 +14,35 @@
       </p>
       <div class="columns">
         <div class="column">
-          <b-field
-            label=""
-            :label-position="labelPosition"
-          >
-            <b-input type="text" name="name" required="" placeholder="Aron Awesome" />
+          <b-field>
+            <b-input
+              type="text"
+              name="name"
+              required
+              placeholder="Aron Awesome"
+            />
           </b-field>
         </div>
         <div class="column">
-          <b-field
-            label=""
-            :label-position="labelPosition"
-          >
-            <b-input type="email" name="email" placeholder="you@example.com" />
+          <b-field>
+            <b-input
+              type="email"
+              name="email"
+              required
+              placeholder="you@example.com"
+            />
           </b-field>
         </div>
       </div>
-      <b-field
-        label=""
-        :label-position="labelPosition"
-      >
-        <b-input type="text" name="subject" placeholder="Anfrage" />
+      <b-field>
+        <b-input
+          type="text"
+          name="subject"
+          required
+          placeholder="Anfrage"
+        />
       </b-field>
       <b-field
-        label=""
-        :label-position="labelPosition"
         class="mt-5"
       >
         <b-input
@@ -52,7 +56,7 @@
       <b-field>
         <p class="control">
           <b-button
-            class="button is-primary mt-4"
+            class="button mt-6 is-medium has-text-white"
             type="submit"
             value="Send"
           >
