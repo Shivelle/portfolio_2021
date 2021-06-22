@@ -4621,6 +4621,11 @@
   "resolved" "https://registry.npmjs.org/devalue/-/devalue-2.0.1.tgz"
   "version" "2.0.1"
 
+"devicon@^2.12.0":
+  "integrity" "sha512-65ptoclWlugK3lNmamqrHZY2gg4FVGZamDoQT4uGSzQ1dQNMmGVughbrumVUrvC4RrfK0UQMgX10+B+BSY4NCQ=="
+  "resolved" "https://registry.npmjs.org/devicon/-/devicon-2.12.0.tgz"
+  "version" "2.12.0"
+
 "diff-sequences@^27.0.1":
   "integrity" "sha512-XPLijkfJUh/PIBnfkcSHgvD6tlYixmcMAn3osTk6jt+H0v/mgURto1XUiD9DKuGX5NDoVS6dSlA23gd9FUaCFg=="
   "resolved" "https://registry.npmjs.org/diff-sequences/-/diff-sequences-27.0.1.tgz"
