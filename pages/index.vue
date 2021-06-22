@@ -13,6 +13,7 @@
     <Skills />
     <Projects />
     <Service />
+    <Technologies />
     <Code />
 
     <section class="section fullpage is-flex is-align-items-center">
