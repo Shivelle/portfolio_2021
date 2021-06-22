@@ -8,7 +8,6 @@
       <p class="has-text-grey-light">
         An diesen Projekten war ich alleine, aber auch als Teil eines Teams, beteiligt.
       </p>
-      <!-- TODO: Update Project Grid -->
       <div class="is-flex is-flex-wrap-wrap mt-6">
         <div class="tile is-parent">
           <article class="tile is-child pt-4 pb-5 px-6 border-white is-clickable crm">
@@ -104,24 +103,38 @@
     @include prefix('border', '2px solid white');
   }
 
+  .article.tile.is-child {
+    @include prefix('transition', '0.5s ease all');
+  }
+
   .ep:hover {
     @include prefix('border', '2px solid #00b9ba');
+
+    background-color: rgba($ep, 0.05);
   }
 
   .cp:hover {
     @include prefix('border', '2px solid #6e96cb');
+
+    background-color: rgba($cp, 0.05);
   }
 
   .cd:hover {
     @include prefix('border', '2px solid #3cbc8d');
+
+    background-color: rgba($cd, 0.05);
   }
 
   .crm:hover {
     @include prefix('border', '2px solid #292a4d');
+
+    background-color: rgba($crm, 0.3);
   }
 
   .hn:hover {
     @include prefix('border', '2px solid #ef8a17');
+
+    background-color: rgba($hn, 0.05);
   }
 
 </style>
