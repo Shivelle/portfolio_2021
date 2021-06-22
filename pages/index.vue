@@ -17,7 +17,7 @@
 
     <section class="section fullpage is-flex is-align-items-center">
       <div class="container">
-        <h2 class="is-size-2 has-text-white mb-6 mt-3">
+        <h2 class="is-size-2 has-text-white mb-6 mt-3 is-uppercase has-text-weight-bold">
           Reden wir
         </h2>
         <ContactForm />
