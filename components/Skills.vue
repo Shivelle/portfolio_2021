@@ -4,7 +4,7 @@
       <div class="columns">
         <div class="column">
           <p>Über mich</p>
-          <h2 class="is-size-2 is-uppercase mb-6 mt-3">
+          <h2 class="is-size-2 is-uppercase mb-6 mt-3 has-text-weight-bold">
             Ich <br><span class="txt-highlight">gestalte & entwickle</span><br> ansprechende<br> Nutzererlebnisse.
           </h2>
           <p class="has-text-grey-light">

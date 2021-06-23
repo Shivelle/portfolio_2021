@@ -4,13 +4,16 @@
       <div class="columns">
         <div class="column">
           <p>Mein Service</p>
-          <h2 class="is-size-2 mb-6 mt-3 is-uppercase">
+          <h2 class="is-size-2 mb-6 mt-3 is-uppercase has-text-weight-bold">
             Ihr <span class="txt-highlight">nächstes Projekt</span> ist meine Inspiration
           </h2>
-          <!-- TODO: Finish list and 4 years section -->
           <ul>
-            <li>Entwicklung</li>
-            <li>Design</li>
+            <li class="is-size-4 mb-4 has-text-grey-light">
+              - Entwicklung
+            </li>
+            <li class="is-size-4 mb-4 has-text-grey-light">
+              - Design
+            </li>
           </ul>
         </div>
         <div class="column">

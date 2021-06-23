@@ -1,7 +1,7 @@
 <template>
   <section class="section fullpage has-text-white is-fullheight is-flex is-align-items-center">
     <div class="container">
-      <h2 class="is-size-2 is-uppercase mb-6 mt-3">
+      <h2 class="is-size-2 is-uppercase mb-6 mt-3 has-text-weight-bold">
         Genutzte Technologien
       </h2>
       <div class="is-flex is-flex-wrap-wrap is-justify-content-center is-align-content-center is-align-items-center is-align-self-center mt-6">

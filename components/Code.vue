@@ -4,7 +4,7 @@
     <div class="container">
       <div class="columns">
         <div class="column">
-          <h2 class="is-size-2 is-uppercase mb-6">
+          <h2 class="is-size-2 is-uppercase mb-6 has-text-weight-bold">
             Einblick: <span class="txt-highlight">
               Code
             </span>

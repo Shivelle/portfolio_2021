@@ -2,7 +2,7 @@
   <section class="section fullpage has-text-white is-relative is-clipped is-flex is-align-items-center">
     <div class="section-bg" />
     <div class="container">
-      <h2 class="is-size-2 mb-6 mt-3 is-uppercase">
+      <h2 class="is-size-2 mb-6 mt-3 is-uppercase has-text-weight-bold">
         Projekte
       </h2>
       <p class="has-text-grey-light">
