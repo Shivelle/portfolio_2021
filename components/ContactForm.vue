@@ -18,6 +18,7 @@
             <b-input
               type="text"
               name="name"
+              size="is-medium"
               required
               placeholder="Aron Awesome"
             />
@@ -28,6 +29,7 @@
             <b-input
               type="email"
               name="email"
+              size="is-medium"
               required
               placeholder="you@example.com"
             />
@@ -38,6 +40,7 @@
         <b-input
           type="text"
           name="subject"
+          size="is-medium"
           required
           placeholder="Anfrage"
         />
@@ -48,8 +51,9 @@
         <b-input
           type="textarea"
           name="message"
+          size="is-medium"
           required
-          placeholder="Hey Sarah! Let's talk about my new website. Cheers, Tom"
+          placeholder="Hey Sarah! Lass uns über unser Projekt reden..."
         />
       </b-field>
       <div data-netlify-recaptcha="true" />
