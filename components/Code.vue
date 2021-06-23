@@ -9,7 +9,7 @@
               Code
             </span>
           </h2>
-          <p class="has-text-grey-light">
+          <p class="has-text-grey-light is-size-5 pr-4">
             Gerade in meinen Arbeitsfeldern gilt: Man lernt nie aus. Ich arbeite ständig an meiner Weiterbildung. Hier erhalten Sie Einblicke in mein GitHub und CodePen Portfolio, sowie einige meiner privaten Demos.
           </p>
         </div>
@@ -23,7 +23,7 @@
                   <h3 class="title is-size-3 mb-3 has-text-white">
                     {{ carousel.title }}
                   </h3>
-                  <p class="has-text-grey-light mb-6">
+                  <p class="has-text-grey-light mb-6 is-size-5 pr-4">
                     {{ carousel.description }}
                   </p>
                   <a v-if="`${carousel.profileSrc}`" :href="`${carousel.profileSrc}`" target="_blank" class="is-primary">

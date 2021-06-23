@@ -5,7 +5,7 @@
       <h2 class="is-size-2 mb-6 mt-3 is-uppercase has-text-weight-bold">
         Projekte
       </h2>
-      <p class="has-text-grey-light">
+      <p class="has-text-grey-light is-size-5 pr-4">
         An diesen Projekten war ich alleine, aber auch als Teil eines Teams, beteiligt.
       </p>
       <div class="is-flex is-flex-wrap-wrap mt-6">
