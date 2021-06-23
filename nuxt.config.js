@@ -4,9 +4,9 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'portfolio_2021',
+    title: 'Sarah Leidisch',
     htmlAttrs: {
-      lang: 'en'
+      lang: 'de'
     },
     meta: [
       { charset: 'utf-8' },
@@ -20,7 +20,12 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
+    '~assets/scss/app.scss'
   ],
+
+  styleResources: {
+    scss: ['./assets/scss/*.scss']
+  },
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
@@ -34,7 +39,9 @@ export default {
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
     // https://go.nuxtjs.dev/stylelint
-    '@nuxtjs/stylelint-module'
+    '@nuxtjs/stylelint-module',
+    '@nuxtjs/style-resources',
+    '@nuxtjs/fontawesome'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -46,7 +53,7 @@ export default {
     [
       'nuxt-i18n',
       {
-        strategy: 'prefix_and_default',
+        strategy: 'prefix',
         defaultLocale: 'de',
         locales: [
           {
@@ -77,6 +84,13 @@ export default {
       remarkPlugins: [
         ['remark-emoji', { emoticon: true }]
       ]
+    }
+  },
+
+  fontawesome: {
+    icons: {
+      solid: true,
+      brands: true
     }
   },
 

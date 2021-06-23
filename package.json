@@ -13,16 +13,26 @@
     "test": "jest"
   },
   "dependencies": {
+    "@fortawesome/free-brands-svg-icons": "^5.15.3",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
     "@nuxt/content": "^1.5.3",
+    "@nuxtjs/fontawesome": "^1.1.2",
+    "buefy": "^0.9.7",
+    "core-js": "^3.14.0",
+    "devicon": "^2.12.0",
+    "nuxt": "^2.2.0",
+    "nuxt-buefy": "^0.4.4",
     "core-js": "^3.15.0",
     "nuxt": "^2.15.7",
     "nuxt-buefy": "^0.4.8",
     "nuxt-i18n": "^6.27.0",
-    "remark-emoji": "^2.2.0"
+    "remark-emoji": "^2.2.0",
+    "stylelint-scss": "^3.19.0"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^6.0.0",
     "@nuxtjs/eslint-module": "^3.0.2",
+    "@nuxtjs/style-resources": "^1.1.0",
     "@nuxtjs/stylelint-module": "^4.0.0",
     "@vue/test-utils": "^1.2.1",
     "babel-core": "7.0.0-bridge.0",
@@ -32,6 +42,8 @@
     "eslint-plugin-nuxt": "^2.0.0",
     "eslint-plugin-vue": "^7.11.1",
     "jest": "^27.0.4",
+    "node-sass": "^5.0.0",
+    "sass-loader": "^10.1.1",
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^22.0.0",
     "vue-jest": "^3.0.4"

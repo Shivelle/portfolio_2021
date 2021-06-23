@@ -1,0 +1,56 @@
+// colors
+$dark: #272727;
+$dark-lighter: #333;
+$orange: #ffa726;
+
+// corporate colors
+$ep: #00b9ba;
+$crm: #292a4d;
+$cd: #3cbc8d;
+$cp: #6e96cb;
+$hn: #ef8a17;
+
+$primary: $orange;
+
+/* ignore styelint for buefy functions */
+/* stylelint-disable function-name-case */
+$primary-light: findLightColor($primary);
+$primary-dark: findDarkColor($primary);
+$primary-invert: findColorInvert($primary);
+/* stylelint-enable function-name-case */
+
+.bg-dark {
+  background-color: $dark !important;
+}
+
+.bg-dark-lighter {
+  background-color: $dark-lighter !important;
+}
+
+.bg-highlight {
+  background-color: $orange !important;
+}
+
+.txt-highlight {
+  color: $orange !important;
+}
+
+.bg-ep {
+  background-color: $ep !important;
+}
+
+.bg-crm {
+  background-color: $crm !important;
+}
+
+.bg-cd {
+  background-color: $cd !important;
+}
+
+.bg-cp {
+  background-color: $cp !important;
+}
+
+.bg-hn {
+  background-color: $hn !important;
+}

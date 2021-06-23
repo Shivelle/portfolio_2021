@@ -1,33 +1,9 @@
 <template>
-  <div>
-    <nav class="navbar has-background-black-ter" role="navigation" aria-label="main navigation">
-      <div class="navbar-brand">
-        <a class="navbar-item" href="/">
-          <img src="~assets/img/svg/bird.svg" width="112" height="28">
-        </a>
-
-        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="mainNav">
-          <span aria-hidden="true" />
-          <span aria-hidden="true" />
-          <span aria-hidden="true" />
-        </a>
-      </div>
-
-      <div id="mainNav" class="navbar-end">
-        <div class="navbar-start">
-          <a class="navbar-item has-text-light">
-            Portfolio
-          </a>
-
-          <a class="navbar-item has-text-light" href="/blog">
-            Blog
-          </a>
-        </div>
-      </div>
-    </nav>
-    <div class="container column is-10">
-      <nuxt />
-    </div>
+  <div class="is-family-monospace bg-dark">
+    <LangSwitch />
+    <Nav />
+    <nuxt />
+    <Footer />
   </div>
 </template>
 
@@ -43,6 +19,36 @@ export default {
         }
       ]
     }
+  },
+  head () {
+    return {
+      bodyAttrs: {
+        class: 'is-relative'
+      }
+    }
   }
 }
 </script>
+
+<style lang="scss">
+  // global styling
+  body {
+    padding-top: 0 !important; // buefy fixed nav fix
+  }
+
+  // elements
+  .vertical-title {
+    position: absolute;
+    white-space: nowrap;
+    width: 0;
+    top: -0.55rem;
+    left: 4.9rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    -webkit-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+  }
+</style>
