@@ -3,12 +3,19 @@
     <div class="container">
       <div class="columns">
         <div class="column">
-          <p>Über mich</p>
+          <p>
+            {{ $t('section.skills.about') }}
+          </p>
           <h2 class="is-size-2 is-uppercase mb-6 mt-3 has-text-weight-bold">
-            Ich <br><span class="txt-highlight">gestalte & entwickle</span><br> ansprechende<br> Nutzererlebnisse.
+            {{ $t('section.skills.title1') }}<br>
+            <span class="txt-highlight">
+              {{ $t('section.skills.title2') }}
+            </span><br>
+            {{ $t('section.skills.title3') }}<br>
+            {{ $t('section.skills.title4') }}
           </h2>
           <p class="has-text-grey-light is-size-5 pr-4">
-            Mit vier Jahren Erfahrung in der Entwicklung anspruchsvoller WebApps und Landingpages.
+            {{ $t('section.skills.experience') }}
           </p>
         </div>
 
@@ -16,7 +23,7 @@
           <div>
             <div class="is-clearfix p-1">
               <div class="is-size-6 is-pulled-left">
-                Frontend Entwicklung
+                {{ $t('section.skills.frontend') }}
               </div>
               <div class="is-size-6 is-pulled-right">
                 70%
@@ -28,7 +35,7 @@
           <div>
             <div class="is-clearfix p-1">
               <div class="is-size-6 is-pulled-left">
-                Backend Entwicklung
+                {{ $t('section.skills.backend') }}
               </div>
               <div class="is-size-6 is-pulled-right">
                 60%

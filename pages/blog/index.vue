@@ -12,7 +12,7 @@
         <footer class="p-2">
           <nuxt-link :to="post.path" class="font-bold text-xl mb-2">
             <button :to="post.path" class="button is-primary is-light">
-              {{ $t('read-more') }}
+              {{ $t('blog.read-more') }}
             </button>
           </nuxt-link>
         </footer>
