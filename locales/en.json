@@ -1,6 +1,46 @@
-  {
-    "blog-welcome": "Welcome to the Blog",
-    "read-more": "Read More",
-    "published-at": "Published at:",
-    "blog-description": "..."
+{
+  "welcome": "Welcome",
+  "hello": "Hello",
+  "routes": {
+    "contact": "Contact"
+  },
+  "section": {
+    "hero": {
+      "virtual-home": "to my virtual home",
+      "i-am": "I'm Sarah."
+    },
+    "skills": {
+      "about": "About me",
+      "title1": "I",
+      "title2": "design & develop",
+      "title3": "engaging",
+      "title4": "user experiences.",
+      "experience": "With four years of experience in developing sophisticated WebApps and landing pages.",
+      "frontend": "Frontend Development",
+      "backend": "Backend Development"
+    },
+    "projects": {
+      "title": "Projects",
+      "subtitle": "I was involved in these projects either alone or as part of a team.",
+      "hn": {
+        "title": "Grinding service provider",
+        "cards": "Business card design",
+        "template": "WordPress template development",
+        "hosting": "Hosting & Email Setup"
+      },
+      "cp": {
+        "title": "Booking System"
+      },
+      "cd": {
+        "title": "Support System",
+        "signatures": "Multilingual signatures"
+      },
+      "ep": {
+        "title": "Postcard service provider"
+      }
+    }
+  },
+  "blog": {
+    "read-more": "Read more"
+  }
 }

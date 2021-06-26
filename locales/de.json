@@ -1,6 +1,46 @@
 {
-  "blog-welcome": "Willkommen im Blog",
-  "read-more": "Mehr lesen",
-  "published-at": "Veröffentlicht am:",
-  "blog-description": "..."
+  "welcome": "Willkommen",
+  "hello": "Hallo",
+  "routes": {
+    "contact": "Kontakt"
+  },
+  "section": {
+    "hero": {
+      "virtual-home": "in meinem virtuellen Zuhause",
+      "i-am": "Ich bin Sarah."
+    },
+    "skills": {
+      "about": "Über mich",
+      "title1": "Ich",
+      "title2": "gestalte & entwickle",
+      "title3": "ansprechende",
+      "title4": "Nutzererlebnisse.",
+      "experience": "Mit vier Jahren Erfahrung in der Entwicklung anspruchsvoller WebApps und Landingpages.",
+      "frontend": "Frontend Entwicklung",
+      "backend": "Backend Entwicklung"
+    },
+    "projects": {
+      "title": "Projekte",
+      "subtitle": "An diesen Projekten war ich alleine, aber auch als Teil eines Teams, beteiligt.",
+      "hn": {
+        "title": "Vermahlungsdienstleister",
+        "cards": "Visitenkarten-Design",
+        "template": "WordPress-Template-Entwicklung",
+        "hosting": "Hosting- & E-Mail-Setup"
+      },
+      "cp": {
+        "title": "Buchungssystem"
+      },
+      "cd": {
+        "title": "Support-System",
+        "signatures": "Mehrsprachige Signaturen"
+      },
+      "ep": {
+        "title": "Postkartenversand"
+      }
+    }
+  },
+  "blog": {
+    "read-more": "Mehr lesen"
+  }
 }
