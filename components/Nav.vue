@@ -42,8 +42,8 @@
       >
         Blog
       </nuxt-link>
-      <a class="navbar-item has-text-white">
-        Kontakt
+      <a class="navbar-item has-text-white" href="#contact">
+        {{ $t('routes.contact') }}
       </a>
     </template>
   </b-navbar>

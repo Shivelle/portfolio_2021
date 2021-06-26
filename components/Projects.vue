@@ -3,10 +3,10 @@
     <div class="section-bg" />
     <div class="container">
       <h2 class="is-size-2 mb-6 mt-3 is-uppercase has-text-weight-bold">
-        Projekte
+        {{ $t('section.projects.title') }}
       </h2>
       <p class="has-text-grey-light is-size-5 pr-4">
-        An diesen Projekten war ich alleine, aber auch als Teil eines Teams, beteiligt.
+        {{ $t('section.projects.subtitle') }}
       </p>
       <div class="is-flex is-flex-wrap-wrap mt-6">
         <div class="tile is-parent">
@@ -16,7 +16,7 @@
                 <h3 class="is-size-3 has-text-weight-semibold mb-3">Customer Relationship Management</h3>
                 <div class="hr-bottom mb-4 bg-crm" />
                 <div class="mb-3">Redesign Backend</div>
-                <div class="mb-3">Diverse Landingpages</div>
+                <div class="mb-3">Landingpages</div>
                 <div class="mb-3">Custom Captcha Feature</div>
               </div>
             </a>
@@ -26,12 +26,14 @@
           <article class="tile is-child pt-4 pb-5 px-6 border-white is-clickable hn">
             <a href="https://www.hn-feinmahltechnik.de/" target="_blank">
               <div class="has-text-white">
-                <h3 class="is-size-3 has-text-weight-semibold mb-3">Vermahlungsdienstleister</h3>
+                <h3 class="is-size-3 has-text-weight-semibold mb-3">
+                  {{ $t('section.projects.hn.title') }}
+                </h3>
                 <div class="hr-bottom mb-4 bg-hn" />
-                <div class="mb-3">Homepage-Design</div>
-                <div class="mb-3">Visitenkarten-Design</div>
-                <div class="mb-3">WordPress-Template-Entwicklung</div>
-                <div class="mb-3">Hosting- & E-Mail-Setup</div>
+                <div class="mb-3">Homepage Design</div>
+                <div class="mb-3">{{ $t('section.projects.hn.cards') }}</div>
+                <div class="mb-3">{{ $t('section.projects.hn.template') }}</div>
+                <div class="mb-3">{{ $t('section.projects.hn.hosting') }}</div>
               </div>
             </a>
           </article>
@@ -41,7 +43,7 @@
           <article class="tile is-child pt-4 pb-5 px-6 border-white is-clickable cp">
             <a href="https://centralplanner.de/" target="_blank">
               <div class="has-text-white">
-                <h3 class="is-size-3 has-text-weight-semibold mb-3">Buchungssystem</h3>
+                <h3 class="is-size-3 has-text-weight-semibold mb-3">{{ $t('section.projects.cp.title') }}</h3>
                 <div class="hr-bottom mb-4 bg-cp" />
                 <div class="mb-3">Redesign Backend</div>
                 <div class="mb-3">Auto-Mailing Features</div>
@@ -54,9 +56,9 @@
           <article class="tile is-child pt-4 pb-5 px-6 border-white is-clickable cd">
             <a href="https://centraldesk.de/" target="_blank">
               <div class="has-text-white">
-                <h3 class="is-size-3 has-text-weight-semibold mb-3">Supportsystem</h3>
+                <h3 class="is-size-3 has-text-weight-semibold mb-3">{{ $t('section.projects.cd.title') }}</h3>
                 <div class="hr-bottom mb-4 bg-cd" />
-                <div class="mb-3">Mehrsprachige Signaturen</div>
+                <div class="mb-3">{{ $t('section.projects.cd.signatures') }}</div>
               </div>
             </a>
           </article>

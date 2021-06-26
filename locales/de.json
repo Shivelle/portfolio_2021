@@ -1,6 +1,77 @@
 {
-  "blog-welcome": "Willkommen im Blog",
-  "read-more": "Mehr lesen",
-  "published-at": "Veröffentlicht am:",
-  "blog-description": "..."
+  "welcome": "Willkommen",
+  "hello": "Hallo",
+  "routes": {
+    "contact": "Kontakt"
+  },
+  "section": {
+    "hero": {
+      "virtual-home": "in meinem virtuellen Zuhause",
+      "i-am": "Ich bin Sarah."
+    },
+    "skills": {
+      "about": "Über mich",
+      "title1": "Ich",
+      "title2": "gestalte & entwickle",
+      "title3": "ansprechende",
+      "title4": "Nutzererlebnisse.",
+      "experience": "Mit vier Jahren Erfahrung in der Entwicklung anspruchsvoller WebApps und Landingpages.",
+      "frontend": "Frontend Entwicklung",
+      "backend": "Backend Entwicklung"
+    },
+    "projects": {
+      "title": "Projekte",
+      "subtitle": "An diesen Projekten war ich alleine, aber auch als Teil eines Teams, beteiligt.",
+      "hn": {
+        "title": "Vermahlungsdienstleister",
+        "cards": "Visitenkarten-Design",
+        "template": "WordPress-Template-Entwicklung",
+        "hosting": "Hosting- & E-Mail-Setup"
+      },
+      "cp": {
+        "title": "Buchungssystem"
+      },
+      "cd": {
+        "title": "Support-System",
+        "signatures": "Mehrsprachige Signaturen"
+      },
+      "ep": {
+        "title": "Postkartenversand"
+      }
+    },
+    "service": {
+      "top-title": "Mein Service",
+      "title1": "Ihr",
+      "title2": "nächstes Projekt",
+      "title3": "ist meine Inspiration",
+      "li": "Entwicklung",
+      "xp1": "Jahre",
+      "xp2": "Erfahrung",
+      "xp3": "als Freelancer"
+    },
+    "technologies": {
+      "title": "Genutzte Technologien"
+    },
+    "code": {
+      "title1": "Einblick",
+      "title2": "Code",
+      "description": "Gerade in meinen Arbeitsfeldern gilt: Man lernt nie aus. Ich arbeite ständig an meiner Weiterbildung. Hier erhalten Sie Einblicke in mein GitHub und CodePen Portfolio, sowie einige meiner privaten Demos.",
+      "to-profile": "Zum Profil",
+      "github-description": "GitHub ist ein Onlinedienst, der Software-Entwicklungsprojekte auf seinen Servern bereitstellt. Ich nutze sowohl Git via GitHub und GitLab, als auch Mercurial via BitBucket zur Versionsverwaltung.",
+      "codepen-description": "CodePen ist eine Online-Community zum Testen und Zeigen von HTML-, CSS- und JavaScript-Codeschnipseln, die von Benutzern erstellt worden sind. Ich nutze den Online-Code-Editor seit vielen Jahren für Frontend-Snippets.",
+      "demos-description": "Eine kleine Auswahl meiner übrigen Projekte. Mein altes Portfolio aus dem Jahr 2017 und ein Flexbox Layout."
+    },
+    "contact": {
+      "title": "Reden wir"
+    }
+  },
+  "contactForm": {
+    "email": "E-Mail",
+    "subject": "Betreff",
+    "message": "Hey Sarah! Lass uns über unser Projekt reden...",
+    "send": "Nachricht senden"
+  },
+  "blog": {
+    "read-more": "Mehr lesen"
+  }
 }

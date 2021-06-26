@@ -16,10 +16,10 @@
     <Technologies />
     <Code />
 
-    <section class="section fullpage is-flex is-align-items-center">
+    <section id="contact" class="section fullpage is-flex is-align-items-center">
       <div class="container">
         <h2 class="is-size-2 has-text-white mb-6 mt-3 is-uppercase has-text-weight-bold">
-          Reden wir
+          {{ $t('section.contact.title') }}
         </h2>
         <ContactForm />
       </div>
@@ -37,6 +37,16 @@ export default {
       activeSection: 0,
       offsets: [],
       touchStartY: 0
+    }
+  },
+  head () {
+    return {
+      htmlAttrs: {
+        lang: this.$i18n.locale
+      },
+      meta: [
+        { name: 'viewport', content: 'width=device-width, initial-scale=1' }
+      ]
     }
   },
   mounted () {

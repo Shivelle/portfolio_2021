@@ -3,13 +3,13 @@
     <div class="container">
       <div class="columns">
         <div class="column">
-          <p>Mein Service</p>
+          <p>{{ $t('section.service.top-title') }}</p>
           <h2 class="is-size-2 mb-6 mt-3 is-uppercase has-text-weight-bold">
-            Ihr <span class="txt-highlight">nächstes Projekt</span> ist meine Inspiration
+            {{ $t('section.service.title1') }} <span class="txt-highlight">{{ $t('section.service.title2') }}</span> {{ $t('section.service.title3') }}
           </h2>
           <ul>
             <li class="is-size-4 mb-4 has-text-grey-light">
-              - Entwicklung
+              - {{ $t('section.service.li') }}
             </li>
             <li class="is-size-4 mb-4 has-text-grey-light">
               - Design
@@ -25,7 +25,7 @@
                 4
               </div>
               <div class="text pt-2">
-                Jahre<br>Erfahrung<br>als Freelancer
+                {{ $t('section.service.xp1') }}<br>{{ $t('section.service.xp2') }}<br>{{ $t('section.service.xp3') }}
               </div>
             </div>
           </div>

@@ -5,12 +5,11 @@
       <div class="columns">
         <div class="column">
           <h2 class="is-size-2 is-uppercase mb-6 has-text-weight-bold">
-            Einblick: <span class="txt-highlight">
-              Code
-            </span>
+            {{ $t('section.code.title1') }}: <span class="txt-highlight">
+              {{ $t('section.code.title2') }}</span>
           </h2>
           <p class="has-text-grey-light is-size-5 pr-4">
-            Gerade in meinen Arbeitsfeldern gilt: Man lernt nie aus. Ich arbeite ständig an meiner Weiterbildung. Hier erhalten Sie Einblicke in mein GitHub und CodePen Portfolio, sowie einige meiner privaten Demos.
+            {{ $t('section.code.description') }}
           </p>
         </div>
         <div class="column">
@@ -25,12 +24,13 @@
                   </h3>
                   <p class="has-text-grey-light mb-6 is-size-5 pr-4">
                     {{ carousel.description }}
+                    {{ $t("section.code." + `${carousel.descriptionFor}` + "-description") }}
                   </p>
                   <a v-if="`${carousel.profileSrc}`" :href="`${carousel.profileSrc}`" target="_blank" class="is-primary">
                     <span>
                       <font-awesome-icon :icon="['fab', `${carousel.icon}`]" />
                     </span>
-                    Zum Profil
+                    {{ $t('section.code.to-profile') }}
                   </a>
                   <img v-if="`${carousel.imgSrc}`" :src="`${carousel.imgSrc}`" :alt="`${carousel.title}`" class="my-4" loading="lazy">
                   <div v-if="`${carousel.pens}`" class="my-4 columns">
@@ -104,7 +104,7 @@ export default {
       carousels: [
         {
           title: 'GitHub',
-          description: 'GitHub ist ein Onlinedienst, der Software-Entwicklungsprojekte auf seinen Servern bereitstellt. Ich nutze sowohl Git via GitHub und GitLab, als auch Mercurial via BitBucket zur Versionsverwaltung.',
+          descriptionFor: 'github',
           profileSrc: 'https://github.com/Shivelle',
           imgSrc: 'https://ghchart.rshah.org/FFA726/shivelle',
           icon: 'github',
@@ -113,7 +113,7 @@ export default {
         },
         {
           title: 'CodePen',
-          description: 'CodePen ist eine Online-Community zum Testen und Zeigen von HTML-, CSS- und JavaScript-Codeschnipseln, die von Benutzern erstellt worden sind. Ich nutze den Online-Code-Editor seit vielen Jahren für Frontend-Snippets.',
+          descriptionFor: 'codepen',
           profileSrc: 'https://codepen.io/shivelle',
           icon: 'codepen',
           imgSrc: '',
@@ -122,7 +122,7 @@ export default {
         },
         {
           title: 'Demos',
-          description: 'Eine kleine Auswahl meiner übrigen Projekte. Mein altes Portfolio aus dem Jahr 2017 und ein Flexbox Layout.',
+          descriptionFor: 'demos',
           imgSrc: '',
           profileSrc: '',
           pens: '',

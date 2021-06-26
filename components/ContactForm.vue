@@ -20,7 +20,7 @@
               name="name"
               size="is-medium"
               required
-              placeholder="Aron Awesome"
+              placeholder="Name"
             />
           </b-field>
         </div>
@@ -31,7 +31,7 @@
               name="email"
               size="is-medium"
               required
-              placeholder="you@example.com"
+              :placeholder="`${$t('contactForm.email')}`"
             />
           </b-field>
         </div>
@@ -42,7 +42,7 @@
           name="subject"
           size="is-medium"
           required
-          placeholder="Anfrage"
+          :placeholder="`${$t('contactForm.subject')}`"
         />
       </b-field>
       <b-field
@@ -53,7 +53,7 @@
           name="message"
           size="is-medium"
           required
-          placeholder="Hey Sarah! Lass uns über unser Projekt reden..."
+          :placeholder="`${$t('contactForm.message')}`"
         />
       </b-field>
       <div data-netlify-recaptcha="true" />
@@ -64,7 +64,7 @@
             type="submit"
             value="Send"
           >
-            Nachricht senden
+            {{ $t('contactForm.send') }}
           </b-button>
         </p>
       </b-field>

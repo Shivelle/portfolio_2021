@@ -1,3 +1,5 @@
+import i18n from './config/i18n.js'
+
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
@@ -50,33 +52,25 @@ export default {
     'nuxt-buefy',
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
-    [
-      'nuxt-i18n',
-      {
-        strategy: 'prefix',
-        defaultLocale: 'de',
-        locales: [
-          {
-            code: 'en',
-            iso: 'en-US',
-            name: 'English'
-          },
-          {
-            code: 'de',
-            iso: 'de-DE',
-            name: 'Deutsch'
-          }
-        ],
-        vueI18n: {
-          fallbackLocale: 'de',
-          messages: {
-            de: require('./locales/de.json'),
-            en: require('./locales/en.json')
-          }
-        }
-      }
-    ]
+    'nuxt-i18n'
   ],
+
+  i18n: {
+    vueI18nLoader: true,
+    strategy: 'prefix',
+    defaultLocale: 'de',
+    locales: [
+      {
+        code: 'en',
+        name: 'English'
+      },
+      {
+        code: 'de',
+        name: 'Deutsch'
+      }
+    ],
+    vueI18n: i18n
+  },
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
   content: {
