@@ -1,6 +1,6 @@
 <template>
   <div class="column">
-    <div class="card">
+    <div class="card has-background-white">
       <div class="card-image">
         <b-image
           :src="image"
