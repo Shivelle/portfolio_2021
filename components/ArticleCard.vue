@@ -1,6 +1,6 @@
 <template>
   <div class="column">
-    <div class="card has-background-white">
+    <div class="card bg-dark-lighter">
       <div class="card-image">
         <b-image
           :src="image"
@@ -10,22 +10,16 @@
         />
       </div>
       <div class="card-content">
-        <div class="content">
-          <h3 class="title is-4">
+        <div class="content has-text-light">
+          <h3 class="title is-4 has-text-white">
             {{ title }}
           </h3>
           <p>
             {{ description }}
           </p>
         </div>
+        <slot />
       </div>
-      <footer class="card-footer">
-        <div class="card-footer-item level-left">
-          <span>
-            <slot />
-          </span>
-        </div>
-      </footer>
     </div>
   </div>
 </template>
