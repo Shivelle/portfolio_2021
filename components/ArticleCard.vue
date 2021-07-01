@@ -15,7 +15,7 @@
             {{ title }}
           </h3>
           <p>
-            {{ description }}
+            {{ description | truncate(30, '...') }}
           </p>
         </div>
         <slot />
@@ -26,6 +26,15 @@
 
 <script>
 export default {
+  filters: {
+    truncate (text, length, suffix) {
+      if (text.length > length) {
+        return text.substring(0, length) + suffix
+      } else {
+        return text
+      }
+    }
+  },
   props: {
     title: {
       type: String,
