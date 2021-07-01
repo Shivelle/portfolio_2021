@@ -2,7 +2,8 @@
   "welcome": "Willkommen",
   "hello": "Hallo",
   "routes": {
-    "contact": "Kontakt"
+    "contact": "Kontakt",
+    "blog___de": "Blog"
   },
   "section": {
     "hero": {
