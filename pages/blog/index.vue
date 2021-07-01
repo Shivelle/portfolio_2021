@@ -1,8 +1,9 @@
 <template>
   <div class="is-fullheight">
     <Header />
-    <div class="container mt-6">
-      <div class="columns is-mobile">
+    <section class="container mt-6">
+      <p class="has-text-white mb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum minus qui culpa delectus, eum numquam perspiciatis at harum! Magni facilis voluptate molestiae. Corrupti illo corporis quaerat officiis quam, veritatis iste ullam repellat neque animi facilis tempore eius dicta praesentium esse nisi sunt dignissimos voluptas vel eveniet aperiam eaque qui? Ipsum blanditiis nostrum repellat officia. Repellendus, reprehenderit fugit. Aspernatur quas mollitia at cumque corporis necessitatibus, voluptatibus corrupti odit, nisi consequuntur a exercitationem rem eius placeat, sapiente ipsam nemo voluptatem modi itaque sint reprehenderit est laudantium vero. Pariatur possimus excepturi ducimus. Eveniet, minus modi expedita dolor ex vero ipsam voluptatum sequi assumenda.</p>
+      <div class="columns is-multiline">
         <ArticleCard
           v-for="(post, $index) in posts"
           :key="`post-${$index}`"
@@ -17,7 +18,7 @@
           </nuxt-link>
         </ArticleCard>
       </div>
-    </div>
+    </section>
   </div>
 </template>
 

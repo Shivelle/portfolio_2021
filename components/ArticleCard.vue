@@ -1,5 +1,5 @@
 <template>
-  <div class="column">
+  <div class="column is-one-third is-flex-grow-1 is-flex-shrink-0 is-mobile">
     <div class="card bg-dark-lighter">
       <div class="card-image">
         <b-image
@@ -9,7 +9,7 @@
           lazy
         />
       </div>
-      <div class="card-content">
+      <div class="card-content is-flex is-flex-direction-column is-align-self-stretch">
         <div class="content has-text-light">
           <h3 class="title is-4 has-text-white">
             {{ title }}
@@ -51,3 +51,9 @@ export default {
   }
 }
 </script>
+
+<style lang="scss" scoped>
+  .card {
+    height: 100%;
+  }
+</style>
