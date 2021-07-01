@@ -6,18 +6,15 @@
         <ArticleCard
           v-for="(post, $index) in posts"
           :key="`post-${$index}`"
-          class=""
           :title="post.title"
           :image="post.media"
           :description="post.description"
         >
-          <footer class="p-2">
-            <nuxt-link :to="post.path" class="font-bold text-xl mb-2">
-              <button :to="post.path" class="button is-primary is-light">
-                {{ $t('blog.read-more') }}
-              </button>
-            </nuxt-link>
-          </footer>
+          <nuxt-link :to="post.path" class="font-bold text-xl mb-2">
+            <button :to="post.path" class="button is-primary is-light">
+              {{ $t('blog.read-more') }}
+            </button>
+          </nuxt-link>
         </ArticleCard>
       </div>
     </div>
