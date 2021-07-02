@@ -3,7 +3,8 @@
   "hello": "Hallo",
   "routes": {
     "contact": "Kontakt",
-    "blog___de": "Blog"
+    "blog___de": "Blog",
+    "blog-slug___de": ""
   },
   "section": {
     "hero": {
