@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="container content pt-5 mt-5 mobile-padding">
+    <div class="container content pt-6 mt-6 mobile-padding">
       <article v-if="post" class="has-text-white">
         <div class="py-4 mt-0">
           <b-image
@@ -9,26 +9,23 @@
             class="my-4 mx-0"
           />
         </div>
-        <h2 class="is-uppercase has-text-primary">
+        <h4 class="is-uppercase">
           {{ post.category }}
-        </h2>
+        </h4>
         <h1 class="is-size-1 mt-4">
           {{ post.title }}
         </h1>
         <b-taglist>
-          <b-tag type="is-info">
-            First
-          </b-tag>
-          <b-tag type="is-info">
-            First
-          </b-tag>
-          <b-tag type="is-info">
-            First
+          <b-tag v-for="tag in post.tags" :key="tag" type="is-link">
+            {{ tag }}
           </b-tag>
         </b-taglist>
-        <div class="meta">
-          {{ post.author }}
-          {{ $dateFns.format(new Date(), 'yyyy-MM-dd') }}
+        <div class="meta mb-6">
+          <p class="has-text-grey-light">
+            {{ $t('blog.created-at') }}
+            {{ $dateFns.format(new Date(post.createdAt), 'dd.MM.yyy') }}
+            {{ $t('blog.by') }} Sarah
+          </p>
         </div>
         <nuxt-content class="post" :document="post" />
       </article>
@@ -40,7 +37,7 @@
 
 export default {
   name: 'Post',
-  async asyncData (context, $dateFns) {
+  async asyncData (context) {
     /* eslint-disable no-unused-vars */
     const { $content, params, app, route, redirect } = context
     /* eslint-enable no-unused-vars */
@@ -48,8 +45,7 @@ export default {
     const post = await $content(`${app.i18n.locale}/blog`, slug).fetch()
 
     return {
-      post,
-      dateFormatted: $dateFns.format(new Date())
+      post
     }
   }
 }
