@@ -114,11 +114,6 @@ export default {
         },
         {
           icon: 'devicon-github-original-wordmark',
-          title: 'Git',
-          isColored: false
-        },
-        {
-          icon: 'devicon-github-original-wordmark',
           title: 'GitHub',
           isColored: false
         },

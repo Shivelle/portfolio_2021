@@ -52,7 +52,8 @@ export default {
     'nuxt-buefy',
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
-    'nuxt-i18n'
+    'nuxt-i18n',
+    '@nuxtjs/date-fns'
   ],
 
   i18n: {

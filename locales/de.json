@@ -2,7 +2,9 @@
   "welcome": "Willkommen",
   "hello": "Hallo",
   "routes": {
-    "contact": "Kontakt"
+    "contact": "Kontakt",
+    "blog___de": "Blog",
+    "blog-slug___de": ""
   },
   "section": {
     "hero": {
@@ -72,6 +74,9 @@
     "send": "Nachricht senden"
   },
   "blog": {
-    "read-more": "Mehr lesen"
+    "desc": "Hier teile ich vereinzelt Tutorials, Erfahrungsberichte zu einigen Projekten, an denen ich gerade arbeite, oder Technologien, in die ich mich gerade einlese.",
+    "read-more": "Mehr lesen",
+    "created-at": "Veröffentlicht am ",
+    "by": " von "
   }
 }

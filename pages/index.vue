@@ -117,7 +117,7 @@ export default {
 
 <style lang="scss">
   section.fullpage {
-    height: 100vh !important;
+    min-height: 100vh !important;
     width: 100%;
   }
 
