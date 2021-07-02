@@ -45,4 +45,8 @@ export default {
   .is-fullheight {
     min-height: 100vh;
   }
+
+  .button {
+    border-radius: 2px;
+  }
 </style>
