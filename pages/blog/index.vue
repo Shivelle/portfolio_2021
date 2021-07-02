@@ -32,7 +32,7 @@ export default {
   },
   async asyncData (context) {
     const { $content } = context
-    const posts = await $content(context.route.path).fetch()
+    const posts = await $content(context.route.path).sortBy('createdAt', 'asc').fetch()
 
     return {
       posts
