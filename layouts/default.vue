@@ -35,4 +35,12 @@ export default {
   body {
     padding-top: 0 !important; // buefy fixed nav fix
   }
+
+  @media (max-width: 992px) {
+    // fixes disappearing padding in bulma elements
+    .mobile-padding {
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
+  }
 </style>

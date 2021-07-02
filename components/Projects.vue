@@ -10,7 +10,7 @@
       </p>
       <div class="is-flex is-flex-wrap-wrap mt-6">
         <div class="tile is-parent">
-          <article class="tile is-child pt-4 pb-5 px-6 border-white is-clickable crm">
+          <article class="tile bg-dark is-child p-6 is-child p-6 border-white is-clickable crm">
             <a href="https://centralstationcrm.de/" target="_blank">
               <div class="has-text-white">
                 <h3 class="is-size-3 has-text-weight-semibold mb-3">Customer Relationship Management</h3>
@@ -23,7 +23,7 @@
           </article>
         </div>
         <div class="tile is-parent">
-          <article class="tile is-child pt-4 pb-5 px-6 border-white is-clickable hn">
+          <article class="tile bg-dark is-child p-6 is-child p-6 border-white is-clickable hn">
             <a href="https://www.hn-feinmahltechnik.de/" target="_blank">
               <div class="has-text-white">
                 <h3 class="is-size-3 has-text-weight-semibold mb-3">
@@ -40,7 +40,7 @@
         </div>
 
         <div class="tile is-parent">
-          <article class="tile is-child pt-4 pb-5 px-6 border-white is-clickable cp">
+          <article class="tile bg-dark is-child p-6 is-child p-6 border-white is-clickable cp">
             <a href="https://centralplanner.de/" target="_blank">
               <div class="has-text-white">
                 <h3 class="is-size-3 has-text-weight-semibold mb-3">{{ $t('section.projects.cp.title') }}</h3>
@@ -53,7 +53,7 @@
           </article>
         </div>
         <div class="tile is-parent">
-          <article class="tile is-child pt-4 pb-5 px-6 border-white is-clickable cd">
+          <article class="tile bg-dark is-child p-6 is-child p-6 border-white is-clickable cd">
             <a href="https://centraldesk.de/" target="_blank">
               <div class="has-text-white">
                 <h3 class="is-size-3 has-text-weight-semibold mb-3">{{ $t('section.projects.cd.title') }}</h3>
@@ -64,7 +64,7 @@
           </article>
         </div>
         <div class="tile is-parent">
-          <article class="tile is-child pt-4 pb-5 px-6 border-white is-clickable ep">
+          <article class="tile bg-dark is-child p-6 is-child p-6 border-white is-clickable ep">
             <a href="https://echtpost.de/" target="_blank">
               <div class="has-text-white">
                 <h3 class="is-size-3 has-text-weight-semibold mb-3">Postkartenversand</h3>
@@ -102,7 +102,7 @@
   }
 
   .border-white {
-    @include prefix('border', '2px solid white');
+    @include prefix('border', '3px solid #272727');
   }
 
   .article.tile.is-child {
@@ -110,33 +110,22 @@
   }
 
   .ep:hover {
-    @include prefix('border', '2px solid #00b9ba');
-
-    background-color: rgba($ep, 0.05);
+    @include prefix('border', '3px solid #00b9ba');
   }
 
   .cp:hover {
-    @include prefix('border', '2px solid #6e96cb');
-
-    background-color: rgba($cp, 0.05);
+    @include prefix('border', '3px solid #6e96cb');
   }
 
   .cd:hover {
-    @include prefix('border', '2px solid #3cbc8d');
-
-    background-color: rgba($cd, 0.05);
+    @include prefix('border', '3px solid #3cbc8d');
   }
 
   .crm:hover {
-    @include prefix('border', '2px solid #292a4d');
-
-    background-color: rgba($crm, 0.3);
+    @include prefix('border', '3px solid #292a4d');
   }
 
   .hn:hover {
-    @include prefix('border', '2px solid #ef8a17');
-
-    background-color: rgba($hn, 0.05);
+    @include prefix('border', '3px solid #ef8a17');
   }
-
 </style>

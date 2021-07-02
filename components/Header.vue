@@ -1,5 +1,5 @@
 <template>
-  <header class="has-bg-black pt-6 pb-3 is-relative is-clipped">
+  <header class="has-bg-black pt-6 pb-3 is-relative is-clipped mobile-padding">
     <div class="header-img" />
     <div class="lines">
       <div class="line" />
