@@ -71,6 +71,7 @@
     "send": "Send Message"
   },
   "blog": {
+    "desc": "Here I share occasional tutorials, reports on some projects I'm working on, or technologies I'm getting into.",
     "read-more": "Read more",
     "created-at": "Published on ",
     "by": " by "

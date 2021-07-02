@@ -74,6 +74,7 @@
     "send": "Nachricht senden"
   },
   "blog": {
+    "desc": "Hier teile ich vereinzelt Tutorials, Erfahrungsberichte zu einigen Projekten, an denen ich gerade arbeite, oder Technologien, in die ich mich gerade einlese.",
     "read-more": "Mehr lesen",
     "created-at": "Veröffentlicht am ",
     "by": " von "

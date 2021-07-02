@@ -2,7 +2,9 @@
   <div class="is-fullheight">
     <Header />
     <section class="container mt-6 mobile-padding">
-      <p class="has-text-white mb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum minus qui culpa delectus, eum numquam perspiciatis at harum!</p>
+      <p class="has-text-white mb-6">
+        {{ $t('blog.desc') }}
+      </p>
       <div class="columns is-multiline">
         <ArticleCard
           v-for="(post, $index) in posts"
