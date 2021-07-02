@@ -71,6 +71,8 @@
     "send": "Send Message"
   },
   "blog": {
-    "read-more": "Read more"
+    "read-more": "Read more",
+    "created-at": "Published on ",
+    "by": " by "
   }
 }
