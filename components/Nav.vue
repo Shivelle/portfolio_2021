@@ -42,9 +42,12 @@
       >
         Blog
       </nuxt-link>
-      <a class="navbar-item has-text-white" href="#contact">
+      <nuxt-link
+        :to="localePath('/#contact')"
+        class="navbar-item has-text-white"
+      >
         {{ $t('routes.contact') }}
-      </a>
+      </nuxt-link>
     </template>
   </b-navbar>
 </template>
