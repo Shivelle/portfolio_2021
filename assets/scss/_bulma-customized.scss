@@ -1,11 +1,17 @@
-// TODO: fix broken color variables
+@import "colors";
 
 $input-color: #fff;
 $input-border-color: transparent;
 $input-radius: 0;
-$input-background-color: #333;
-$input-focus-border-color: #ffa726;
-$input-hover-border-color: #ffa726;
+$input-background-color: $dark-lighter;
+$input-focus-border-color: $orange;
+$input-hover-border-color: $orange;
 $scheme-main: transparent;
 
 $carousel-arrow-icon-spaced: 0;
+
+$navbar-background-color: $dark;
+$navbar-item-hover-color: #fff;
+$navbar-item-hover-background-color: $dark-lighter;
+$navbar-dropdown-boxed-shadow: 0;
+$navbar-box-shadow-size: 0;

@@ -20,16 +20,16 @@
 
     <template #start>
       <div class="level has-text-centered px-6 is-mobile">
-        <b-navbar-item href="#">
+        <b-navbar-item href="https://github.com/Shivelle" target="_blank">
           <font-awesome-icon :icon="['fab', 'github']" />
         </b-navbar-item>
-        <b-navbar-item href="#">
+        <b-navbar-item href="https://codepen.io/Shivelle" target="_blank">
           <font-awesome-icon :icon="['fab', 'codepen']" />
         </b-navbar-item>
-        <b-navbar-item href="#">
+        <b-navbar-item href="https://twitter.com/_Shivelle_" target="_blank">
           <font-awesome-icon :icon="['fab', 'twitter']" />
         </b-navbar-item>
-        <b-navbar-item href="#">
+        <b-navbar-item href="https://www.linkedin.com/in/sarah-maria-leidisch-a7758277/" target="_blank">
           <font-awesome-icon :icon="['fab', 'linkedin']" />
         </b-navbar-item>
       </div>
@@ -42,19 +42,42 @@
       >
         Blog
       </nuxt-link>
-      <a class="navbar-item has-text-white" href="#contact">
+      <nuxt-link
+        :to="localePath('/#contact')"
+        class="navbar-item has-text-white"
+      >
         {{ $t('routes.contact') }}
-      </a>
+      </nuxt-link>
     </template>
   </b-navbar>
 </template>
 
 <style lang="scss" scoped>
-  nav.navbar.is-fixed-top {
-    background: transparent;
-  }
-
   .navbar-brand img {
     transform: scale(1.4);
+  }
+
+  @media (min-width: 920px) {
+    .navbar.is-transparent {
+      background-color: transparent;
+    }
+  }
+
+  @media (max-width: 920px) {
+    .navbar.is-transparent {
+      padding: 1rem;
+
+      .navbar-burger {
+        margin: 1.6rem 1.6rem 1.6rem auto;
+      }
+
+      .navbar-end {
+        padding: 3rem !important;
+
+        .navbar-item {
+          padding: 2rem;
+        }
+      }
+    }
   }
 </style>
