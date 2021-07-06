@@ -13,6 +13,13 @@
           <article class="tile bg-dark is-child p-6 is-child p-6 border-white is-clickable crm">
             <a href="https://centralstationcrm.de/" target="_blank">
               <div class="has-text-white">
+                <div class="devicons">
+                  <i class="devicon-ruby-plain colored" />
+                  <i class="devicon-rails-plain colored" />
+                  <i class="devicon-sass-original colored" />
+                  <i class="devicon-javascript-plain colored" />
+                  <i class="devicon-vuejs-plain colored" />
+                </div>
                 <h3 class="is-size-3 has-text-weight-semibold mb-3">Customer Relationship Management</h3>
                 <div class="hr-bottom mb-4 bg-crm" />
                 <div class="mb-3">Redesign Backend</div>
@@ -26,6 +33,13 @@
           <article class="tile bg-dark is-child p-6 is-child p-6 border-white is-clickable hn">
             <a href="https://www.hn-feinmahltechnik.de/" target="_blank">
               <div class="has-text-white">
+                <div class="devicons">
+                  <i class="devicon-php-plain colored" />
+                  <i class="devicon-wordpress-plain colored" />
+                  <i class="devicon-sass-original colored" />
+                  <i class="devicon-javascript-plain colored" />
+                  <i class="devicon-jquery-plain colored" />
+                </div>
                 <h3 class="is-size-3 has-text-weight-semibold mb-3">
                   {{ $t('section.projects.hn.title') }}
                 </h3>
@@ -43,6 +57,12 @@
           <article class="tile bg-dark is-child p-6 is-child p-6 border-white is-clickable cp">
             <a href="https://centralplanner.de/" target="_blank">
               <div class="has-text-white">
+                <div class="devicons">
+                  <i class="devicon-ruby-plain colored" />
+                  <i class="devicon-rails-plain colored" />
+                  <i class="devicon-sass-original colored" />
+                  <i class="devicon-javascript-plain colored" />
+                </div>
                 <h3 class="is-size-3 has-text-weight-semibold mb-3">{{ $t('section.projects.cp.title') }}</h3>
                 <div class="hr-bottom mb-4 bg-cp" />
                 <div class="mb-3">Redesign Backend</div>
@@ -56,6 +76,12 @@
           <article class="tile bg-dark is-child p-6 is-child p-6 border-white is-clickable cd">
             <a href="https://centraldesk.de/" target="_blank">
               <div class="has-text-white">
+                <div class="devicons">
+                  <i class="devicon-ruby-plain colored" />
+                  <i class="devicon-rails-plain colored" />
+                  <i class="devicon-sass-original colored" />
+                  <i class="devicon-javascript-plain colored" />
+                </div>
                 <h3 class="is-size-3 has-text-weight-semibold mb-3">{{ $t('section.projects.cd.title') }}</h3>
                 <div class="hr-bottom mb-4 bg-cd" />
                 <div class="mb-3">{{ $t('section.projects.cd.signatures') }}</div>
@@ -67,6 +93,12 @@
           <article class="tile bg-dark is-child p-6 is-child p-6 border-white is-clickable ep">
             <a href="https://echtpost.de/" target="_blank">
               <div class="has-text-white">
+                <div class="devicons">
+                  <i class="devicon-ruby-plain colored" />
+                  <i class="devicon-rails-plain colored" />
+                  <i class="devicon-sass-original colored" />
+                  <i class="devicon-javascript-plain colored" />
+                </div>
                 <h3 class="is-size-3 has-text-weight-semibold mb-3">Postkartenversand</h3>
                 <div class="hr-bottom mb-4 bg-ep" />
                 <div class="mb-3">Landingpage Redesign</div>
@@ -80,6 +112,8 @@
 </template>
 
 <style lang="scss" scoped>
+  @import "~/node_modules/devicon/devicon.min.css";
+
   .section-bg {
     background-image: url('~/assets/img/bg/abstract2.jpg');
     position: absolute;
@@ -92,6 +126,10 @@
     opacity: 0.2;
 
     @include prefix('filter', 'blur(4px)');
+  }
+
+  .devicons {
+    @include prefix('filter', 'saturate(80%);');
   }
 
   .hr-bottom {
