@@ -1,12 +1,13 @@
 <template>
   <form
+    id="contact-form"
     name="portfolio"
     class="js-form"
     novalidate="novalidate"
     netlify-honeypot="bot-field"
     method="POST"
     data-netlify-recaptcha="true"
-    netlify
+    data-netlify="true"
   >
     <div class="row">
       <p class="is-hidden">
@@ -80,6 +81,20 @@ export default {
     }
   }
 }
+
+const handleSubmit = (e) => {
+  e.preventDefault()
+  const contactForm = document.getElementById('contact-form')
+  const formData = new FormData(contactForm)
+  fetch('/', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+    body: new URLSearchParams(formData).toString()
+  }).then(() => alert('Form successfully submitted')).catch(error =>
+    alert(error))
+}
+
+document.querySelector('form').addEventListener('submit', handleSubmit)
 </script>
 
 <style lang="scss" scoped>
