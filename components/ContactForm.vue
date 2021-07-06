@@ -82,6 +82,8 @@ export default {
   }
 }
 
+// TODO: Fix new error document is not defined
+/*
 const handleSubmit = (e) => {
   e.preventDefault()
   const contactForm = document.getElementById('contact-form')
@@ -95,6 +97,7 @@ const handleSubmit = (e) => {
 }
 
 document.querySelector('form').addEventListener('submit', handleSubmit)
+*/
 </script>
 
 <style lang="scss" scoped>
