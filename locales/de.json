@@ -4,7 +4,9 @@
   "routes": {
     "contact": "Kontakt",
     "blog___de": "Blog",
-    "blog-slug___de": ""
+    "blog-slug___de": "",
+    "impressum___de": "Impressum",
+    "datenschutz___de": "Datenschutz"
   },
   "section": {
     "hero": {
