@@ -70,7 +70,18 @@ export default {
         name: 'Deutsch'
       }
     ],
-    vueI18n: i18n
+    vueI18n: i18n,
+    parsePages: false, // Disable babel parsing
+    pages: {
+      imprint: {
+        de: '/impressum',
+        en: '/imprint'
+      },
+      dataProtection: {
+        de: '/datenschutz',
+        en: '/data-protection'
+      }
+    }
   },
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
