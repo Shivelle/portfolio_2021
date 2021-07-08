@@ -59,13 +59,16 @@
       "title": "Technologies used"
     },
     "code": {
-      "title1": "Einblick",
+      "title1": "Insights",
       "title2": "Code",
       "description": "In my field of work in particular, you never stop learning. I'm constantly working on my continuing education. Here you can get insights into my GitHub and CodePen portfolio, as well as some of my private demos.",
       "to-profile": "To the profile",
       "github-description": "GitHub is an online service that hosts software development projects on its servers. I use both Git via GitHub and GitLab, and Mercurial via BitBucket for version control.",
       "codepen-description": "CodePen is an online community for testing and showing user-created HTML, CSS, and JavaScript code snippets. I've been using the online code editor for frontend snippets for many years.",
       "demos-description": "A small selection of my other projects, like my old portfolio from 2017 and a flexbox layout."
+    },
+    "contact": {
+      "title": "Let's talk"
     }
   },
   "contactForm": {
