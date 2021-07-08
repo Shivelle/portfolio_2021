@@ -1,10 +1,14 @@
 {
   "welcome": "Willkommen",
   "hello": "Hallo",
+  "imprint": "Impressum",
+  "data-protection": "Datenschutz",
   "routes": {
     "contact": "Kontakt",
     "blog___de": "Blog",
-    "blog-slug___de": ""
+    "blog-slug___de": "",
+    "impressum___de": "Impressum",
+    "data-protection___de": "Datenschutz"
   },
   "section": {
     "hero": {

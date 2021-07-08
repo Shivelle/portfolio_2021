@@ -1,10 +1,14 @@
 {
   "welcome": "Welcome",
   "hello": "Hello",
+  "imprint": "Imprint",
+  "data-protection": "Data protection",
   "routes": {
     "contact": "Contact",
     "blog___en": "Blog",
-    "blog-slug___en": ""
+    "blog-slug___en": "",
+    "imprint___en": "Imprint",
+    "data-protection___en": "Data protection"
   },
   "section": {
     "hero": {
