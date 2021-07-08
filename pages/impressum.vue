@@ -3,12 +3,11 @@
     <Header />
     <div class="container has-text-white py-6 mobile-padding">
       <h3 class="is-size-3 mt-6 mb-2">
-        Angaben gem&auml;&szlig; &sect; 5 TMG
+        Angaben gemäß § 5 TMG
       </h3>
       <p>
         Sarah Maria Leidisch<br>
-        Sarah Maria Leidisch<br>
-        He&szlig;heimer Stra&szlig;e 8<br>
+        Heßheimer Straße 8<br>
         67227 Frankenthal
       </p>
 
@@ -24,25 +23,16 @@
         Umsatzsteuer-ID
       </h3>
       <p>
-        Umsatzsteuer-Identifikationsnummer gem&auml;&szlig; &sect; 27 a Umsatzsteuergesetz:<br>
+        Umsatzsteuer-Identifikationsnummer gemäß $ 27 a Umsatzsteuergesetz:<br>
         DE305458631
       </p>
 
-      <h3 class="is-size-3 mt-6 mb-2">
-        Berufsbezeichnung und berufsrechtliche Regelungen
-      </h3>
-      <p>
-        Berufsbezeichnung: anderer Beruf<br>
-        Zust&auml;ndige Kammer: <br>
-        Verliehen in:
-      </p>
-      <p>Es gelten folgende berufsrechtliche Regelungen:</p>
       <h3 class="is-size-3 mt-6 mb-2">
         Redaktionell verantwortlich
       </h3>
       <p>
         Sarah Maria Leidisch<br>
-        He&szlig;heimer Stra&szlig;e 8<br>
+        Heßheimer Straße 8<br>
         67227 Frankenthal
       </p>
 
