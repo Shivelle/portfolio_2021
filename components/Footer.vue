@@ -22,6 +22,7 @@
         </p>
       </div>
     </footer>
+    <CookieConsent />
   </section>
 </template>
 
