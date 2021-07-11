@@ -10,6 +10,9 @@
     "imprint___en": "Imprint",
     "data-protection___en": "Data protection"
   },
+  "consent": {
+    "description": "Only technically necessary cookies are used on this website."
+  },
   "section": {
     "hero": {
       "virtual-home": "to my virtual home",

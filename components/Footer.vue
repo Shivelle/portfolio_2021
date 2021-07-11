@@ -22,9 +22,13 @@
         </p>
       </div>
     </footer>
-    <CookieConsent />
+    <CookieNotice />
   </section>
 </template>
+
+<script>
+// document.cookie()
+</script>
 
 <style lang="scss" scoped>
   section.fullpage {
