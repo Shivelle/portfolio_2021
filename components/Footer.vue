@@ -22,7 +22,6 @@
         </p>
       </div>
     </footer>
-    <CookieNotice />
   </section>
 </template>
 
