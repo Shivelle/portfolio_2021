@@ -25,6 +25,10 @@
   </section>
 </template>
 
+<script>
+// document.cookie()
+</script>
+
 <style lang="scss" scoped>
   section.fullpage {
     min-height: auto !important;

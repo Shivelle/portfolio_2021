@@ -4,6 +4,7 @@
     <Nav />
     <nuxt />
     <Footer />
+    <Cookies />
   </div>
 </template>
 

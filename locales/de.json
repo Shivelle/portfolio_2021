@@ -10,6 +10,9 @@
     "impressum___de": "Impressum",
     "data-protection___de": "Datenschutz"
   },
+  "consent": {
+    "description": "Auf dieser Webseite werden nur technisch notwendige Cookies verwendet."
+  },
   "section": {
     "hero": {
       "virtual-home": "in meinem virtuellen Zuhause",
