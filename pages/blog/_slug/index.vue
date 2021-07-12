@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="container content pt-6 mt-6 mobile-padding">
+    <div class="container content pt-6 my-6 mobile-padding">
       <article v-if="post" class="has-text-white">
         <div class="py-4 mt-0">
           <b-image
