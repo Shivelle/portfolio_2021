@@ -25,7 +25,7 @@
     "i18n": "^0.13.3",
     "nuxt": "^2.15.7",
     "nuxt-buefy": "^0.4.8",
-    "nuxt-i18n": "^6.27.0",
+    "nuxt-i18n": "^6.27.3",
     "remark-emoji": "^2.2.0",
     "stylelint-scss": "^3.19.0"
   },
