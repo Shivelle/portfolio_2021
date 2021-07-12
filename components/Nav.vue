@@ -5,7 +5,7 @@
     :spaced="true"
   >
     <template #brand>
-      <b-navbar-item tag="router-link" :to="{ path: '/' }">
+      <b-navbar-item tag="router-link" :to="localePath('/')">
         <img src="~assets/img/svg/bird.svg" width="80" height="28">
         <div class="has-text-white">
           <h4 class="is-size-4 has-text-weight-bold">

@@ -4,7 +4,7 @@
     <span class="interactions pl-2">
       <nuxt-link
         class="mx-2"
-        :to="localePath('data-protection')"
+        :to="localePath('datenschutz')"
       >
         {{ $t('data-protection') }}
       </nuxt-link>

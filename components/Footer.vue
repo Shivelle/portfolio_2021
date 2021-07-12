@@ -14,7 +14,7 @@
           </nuxt-link>
           <span class="px-4">|</span>
           <nuxt-link
-            :to="localePath('data-protection')"
+            :to="localePath('datenschutz')"
             class="has-text-white"
           >
             {{ $t('data-protection') }}
