@@ -1,7 +1,7 @@
 <template>
   <div class="is-fullheight">
     <Header />
-    <section class="container mt-6 mobile-padding">
+    <section class="container my-6 mobile-padding">
       <p class="has-text-white mb-6">
         {{ $t('blog.desc') }}
       </p>
@@ -50,5 +50,9 @@ export default {
 
   .button {
     border-radius: 2px;
+  }
+
+  .column {
+    max-width: 400px;
   }
 </style>

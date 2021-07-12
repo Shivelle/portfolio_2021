@@ -79,25 +79,23 @@ export default {
     return {
       labelPosition: 'on-border'
     }
+  },
+  mounted () {
+    const handleSubmit = (e) => {
+      e.preventDefault()
+      const contactForm = document.getElementById('contact-form')
+      const formData = new FormData(contactForm)
+      fetch('/', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: new URLSearchParams(formData).toString()
+      }).then(() => alert('Form successfully submitted')).catch(error =>
+        alert(error))
+    }
+
+    document.querySelector('form').addEventListener('submit', handleSubmit)
   }
 }
-
-// TODO: Fix new error document is not defined
-/*
-const handleSubmit = (e) => {
-  e.preventDefault()
-  const contactForm = document.getElementById('contact-form')
-  const formData = new FormData(contactForm)
-  fetch('/', {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-    body: new URLSearchParams(formData).toString()
-  }).then(() => alert('Form successfully submitted')).catch(error =>
-    alert(error))
-}
-
-document.querySelector('form').addEventListener('submit', handleSubmit)
-*/
 </script>
 
 <style lang="scss" scoped>

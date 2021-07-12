@@ -1,6 +1,6 @@
 <template>
   <section class="fullpage">
-    <footer class="footer bg-dark">
+    <footer class="footer bg-dark-lighter">
       <div class="content has-text-centered has-text-white">
         <p>
           Made with ❤️ by <a href="https://github.com/Shivelle" target="_blank">Sarah Maria Leidisch</a>.
@@ -14,7 +14,7 @@
           </nuxt-link>
           <span class="px-4">|</span>
           <nuxt-link
-            :to="localePath('data-protection')"
+            :to="localePath('datenschutz')"
             class="has-text-white"
           >
             {{ $t('data-protection') }}
