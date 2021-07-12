@@ -7573,9 +7573,9 @@ nuxt-buefy@^0.4.8:
   dependencies:
     buefy "^0.9.8"
 
-nuxt-i18n@^6.27.0:
-  version "6.27.2"
-  resolved "https://registry.npmjs.org/nuxt-i18n/-/nuxt-i18n-6.27.2.tgz"
+nuxt-i18n@^6.27.3:
+  version "6.27.3"
+  resolved "https://registry.yarnpkg.com/nuxt-i18n/-/nuxt-i18n-6.27.3.tgz#3d79b73e50c8cb5f17dbc6451069a37bf5e4832b"
   dependencies:
     "@babel/parser" "^7.14.7"
     "@babel/traverse" "^7.14.7"
@@ -7587,7 +7587,7 @@ nuxt-i18n@^6.27.0:
     js-cookie "^2.2.1"
     klona "^2.0.4"
     lodash.merge "^4.6.2"
-    ufo "^0.7.5"
+    ufo "^0.7.7"
     vue-i18n "^8.24.5"
 
 nuxt@^2.15.7:
@@ -10462,9 +10462,9 @@ ua-parser-js@^0.7.28:
   version "0.7.28"
   resolved "https://registry.npmjs.org/ua-parser-js/-/ua-parser-js-0.7.28.tgz"
 
-ufo@^0.7.4, ufo@^0.7.5:
-  version "0.7.5"
-  resolved "https://registry.npmjs.org/ufo/-/ufo-0.7.5.tgz"
+ufo@^0.7.4, ufo@^0.7.7:
+  version "0.7.7"
+  resolved "https://registry.yarnpkg.com/ufo/-/ufo-0.7.7.tgz#0062f9e5e790819b0fb23ca24d7c63a4011c036a"
 
 uglify-js@^3.5.1:
   version "3.13.9"
