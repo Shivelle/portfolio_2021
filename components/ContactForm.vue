@@ -9,6 +9,7 @@
     data-netlify-recaptcha="true"
     data-netlify="true"
   >
+    <input type="hidden" name="form-name" value="portfolio">
     <div class="row">
       <p class="is-hidden">
         <label>Don’t fill this out if you're human: <input name="bot-field"></input></label>
@@ -87,6 +88,7 @@ export default {
       const formData = new FormData(contactForm)
       fetch('/', {
         method: 'POST',
+        url: 'mail.php',
         headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
         body: new URLSearchParams(formData).toString()
       }).then(() => alert('Form successfully submitted')).catch(error =>
