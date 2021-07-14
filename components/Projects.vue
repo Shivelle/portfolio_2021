@@ -11,7 +11,7 @@
       <div class="is-flex is-flex-wrap-wrap mt-6">
         <div class="tile is-parent">
           <article class="tile bg-dark is-child p-6 is-child p-6 border-white is-clickable crm">
-            <a href="https://centralstationcrm.de/" target="_blank">
+            <a href="https://centralstationcrm.de/" target="_blank" rel="noopener">
               <div class="has-text-white">
                 <div class="devicons">
                   <i class="devicon-ruby-plain colored" />
@@ -31,7 +31,7 @@
         </div>
         <div class="tile is-parent">
           <article class="tile bg-dark is-child p-6 is-child p-6 border-white is-clickable hn">
-            <a href="https://www.hn-feinmahltechnik.de/" target="_blank">
+            <a href="https://www.hn-feinmahltechnik.de/" target="_blank" rel="noopener">
               <div class="has-text-white">
                 <div class="devicons">
                   <i class="devicon-php-plain colored" />
@@ -55,7 +55,7 @@
 
         <div class="tile is-parent">
           <article class="tile bg-dark is-child p-6 is-child p-6 border-white is-clickable cp">
-            <a href="https://centralplanner.de/" target="_blank">
+            <a href="https://centralplanner.de/" target="_blank" rel="noopener">
               <div class="has-text-white">
                 <div class="devicons">
                   <i class="devicon-ruby-plain colored" />
@@ -74,7 +74,7 @@
         </div>
         <div class="tile is-parent">
           <article class="tile bg-dark is-child p-6 is-child p-6 border-white is-clickable cd">
-            <a href="https://centraldesk.de/" target="_blank">
+            <a href="https://centraldesk.de/" target="_blank" rel="noopener">
               <div class="has-text-white">
                 <div class="devicons">
                   <i class="devicon-ruby-plain colored" />
@@ -91,7 +91,7 @@
         </div>
         <div class="tile is-parent">
           <article class="tile bg-dark is-child p-6 is-child p-6 border-white is-clickable ep">
-            <a href="https://echtpost.de/" target="_blank">
+            <a href="https://echtpost.de/" target="_blank" rel="noopener">
               <div class="has-text-white">
                 <div class="devicons">
                   <i class="devicon-ruby-plain colored" />

@@ -26,7 +26,7 @@
                     {{ carousel.description }}
                     {{ $t("section.code." + `${carousel.descriptionFor}` + "-description") }}
                   </p>
-                  <a v-if="`${carousel.profileSrc}`" :href="`${carousel.profileSrc}`" target="_blank" class="is-primary">
+                  <a v-if="`${carousel.profileSrc}`" :href="`${carousel.profileSrc}`" target="_blank" rel="noopener" class="is-primary">
                     <span>
                       <font-awesome-icon :icon="['fab', `${carousel.icon}`]" />
                     </span>
@@ -36,19 +36,19 @@
                   <div v-if="`${carousel.pens}`" class="my-4 columns">
                     <div class="column">
                       <p>The Cat Blog</p>
-                      <a href="https://codepen.io/Shivelle/full/aKXVJw" target="_blank">
+                      <a href="https://codepen.io/Shivelle/full/aKXVJw" target="_blank" rel="noopener">
                         <img src="~assets/img/cp/cat_blog.jpg" alt="cat blog" loading="lazy">
                       </a>
                     </div>
                     <div class="column">
                       <p>Circular Navigation</p>
-                      <a href="https://codepen.io/Shivelle/full/eBxEvJ" target="_blank">
+                      <a href="https://codepen.io/Shivelle/full/eBxEvJ" target="_blank" rel="noopener">
                         <img src="~assets/img/cp/circular_nav.jpg" alt="circular nav" loading="lazy">
                       </a>
                     </div>
                     <div class="column">
                       <p>Click and Drag</p>
-                      <a href="https://codepen.io/Shivelle/full/MvEpvb" target="_blank">
+                      <a href="https://codepen.io/Shivelle/full/MvEpvb" target="_blank" rel="noopener">
                         <img src="~assets/img/cp/click_n_drag.jpg" alt="click & drag" loading="lazy">
                       </a>
                     </div>
@@ -56,19 +56,19 @@
                   <div v-if="`${carousel.pens}`" class="my-2 columns">
                     <div class="column">
                       <p>Infinite Gallery</p>
-                      <a href="https://codepen.io/Shivelle/full/vMqxMV" target="_blank">
+                      <a href="https://codepen.io/Shivelle/full/vMqxMV" target="_blank" rel="noopener">
                         <img src="~assets/img/cp/infinite_scroll.jpg" alt="infinite scroll" loading="lazy">
                       </a>
                     </div>
                     <div class="column">
                       <p>Progress Bars</p>
-                      <a href="https://codepen.io/Shivelle/full/MvJzwm" target="_blank">
+                      <a href="https://codepen.io/Shivelle/full/MvJzwm" target="_blank" rel="noopener">
                         <img src="~assets/img/cp/progress.jpg" alt="progress bars" loading="lazy">
                       </a>
                     </div>
                     <div class="column">
                       <p>Custom Video Player</p>
-                      <a href="https://codepen.io/Shivelle/full/vJBQeE" target="_blank">
+                      <a href="https://codepen.io/Shivelle/full/vJBQeE" target="_blank" rel="noopener">
                         <img src="~assets/img/cp/video_player.jpg" alt="video player" loading="lazy">
                       </a>
                     </div>
@@ -76,13 +76,13 @@
                   <div v-if="`${carousel.demos}`" class="columns">
                     <div class="column">
                       <span>Flexbox Layout</span>
-                      <a href="https://hungry-poitras-6ae589.netlify.com" target="_blank">
+                      <a href="https://hungry-poitras-6ae589.netlify.com" target="_blank" rel="noopener">
                         <img src="~assets/img/demos/mountain_travel.jpg" alt="Mountain Travel" loading="lazy">
                       </a>
                     </div>
                     <div class="column">
                       <span>Portfolio 2017</span>
-                      <a href="https://shivelle.github.io/" target="_blank">
+                      <a href="https://shivelle.github.io/" target="_blank" rel="noopener">
                         <img src="~assets/img/demos/hp_old.jpg" alt="Homepage V1" loading="lazy">
                       </a>
                     </div>

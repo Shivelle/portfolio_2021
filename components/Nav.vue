@@ -6,7 +6,7 @@
   >
     <template #brand>
       <b-navbar-item tag="router-link" :to="localePath('/')">
-        <img src="~assets/img/svg/bird.svg" width="80" height="28">
+        <img src="~assets/img/svg/bird.svg" width="80" height="28" alt="Sarah Leidisch">
         <div class="has-text-white">
           <h4 class="is-size-4 has-text-weight-bold">
             Sarah Leidisch
@@ -20,16 +20,16 @@
 
     <template #start>
       <div class="level has-text-centered px-6 is-mobile">
-        <b-navbar-item href="https://github.com/Shivelle" target="_blank">
+        <b-navbar-item href="https://github.com/Shivelle" target="_blank" rel="noopener">
           <font-awesome-icon :icon="['fab', 'github']" />
         </b-navbar-item>
-        <b-navbar-item href="https://codepen.io/Shivelle" target="_blank">
+        <b-navbar-item href="https://codepen.io/Shivelle" target="_blank" rel="noopener">
           <font-awesome-icon :icon="['fab', 'codepen']" />
         </b-navbar-item>
-        <b-navbar-item href="https://twitter.com/_Shivelle_" target="_blank">
+        <b-navbar-item href="https://twitter.com/_Shivelle_" target="_blank" rel="noopener">
           <font-awesome-icon :icon="['fab', 'twitter']" />
         </b-navbar-item>
-        <b-navbar-item href="https://www.linkedin.com/in/sarah-maria-leidisch-a7758277/" target="_blank">
+        <b-navbar-item href="https://www.linkedin.com/in/sarah-maria-leidisch-a7758277/" target="_blank" rel="noopener">
           <font-awesome-icon :icon="['fab', 'linkedin']" />
         </b-navbar-item>
       </div>
