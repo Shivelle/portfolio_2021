@@ -3,7 +3,7 @@
     <footer class="footer bg-dark-lighter">
       <div class="content has-text-centered has-text-white">
         <p>
-          Made with ❤️ by <a href="https://github.com/Shivelle" target="_blank">Sarah Maria Leidisch</a>.
+          Made with ❤️ by <a href="https://github.com/Shivelle" target="_blank" rel="noopener">Sarah Maria Leidisch</a>.
         </p>
         <p>
           <nuxt-link
