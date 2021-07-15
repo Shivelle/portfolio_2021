@@ -8,7 +8,9 @@
     "blog___en": "Blog",
     "blog-slug___en": "",
     "imprint___en": "Imprint",
-    "data-protection___en": "Data protection"
+    "data-protection___en": "Data protection",
+    "thank-you___en": "Thank you!",
+    "thank-you": "Thank you!"
   },
   "consent": {
     "description": "Only technically necessary cookies are used on this website."
@@ -78,7 +80,9 @@
     "email": "Email",
     "subject": "Subject",
     "message": "Hey Sarah! Let's talk about our project...",
-    "send": "Send Message"
+    "send": "Send Message",
+    "thanks": "Thank you.",
+    "confirm": "Your message has been sent successfully and will be answered promptly."
   },
   "blog": {
     "desc": "Here I share occasional tutorials, reports on some projects I'm working on, or technologies I'm getting into.",
