@@ -8,7 +8,9 @@
     "blog___de": "Blog",
     "blog-slug___de": "",
     "impressum___de": "Impressum",
-    "datenschutz___de": "Datenschutz"
+    "datenschutz___de": "Datenschutz",
+    "thank-you___de": "Danke!",
+    "thank-you": "Danke!"
   },
   "consent": {
     "description": "Auf dieser Webseite werden nur technisch notwendige Cookies verwendet."
@@ -78,7 +80,9 @@
     "email": "E-Mail",
     "subject": "Betreff",
     "message": "Hey Sarah! Lass uns über unser Projekt reden...",
-    "send": "Nachricht senden"
+    "send": "Nachricht senden",
+    "thanks": "Danke.",
+    "confirm": "Ihre Nachricht wurde erfolgreich gesendet und wird zeitnah beantwortet."
   },
   "blog": {
     "desc": "Hier teile ich vereinzelt Tutorials, Erfahrungsberichte zu einigen Projekten, an denen ich gerade arbeite, oder Technologien, in die ich mich gerade einlese.",
