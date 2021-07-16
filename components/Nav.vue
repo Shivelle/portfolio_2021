@@ -20,16 +20,16 @@
 
     <template #start>
       <div class="level has-text-centered px-6 is-mobile">
-        <b-navbar-item href="https://github.com/Shivelle" target="_blank" rel="noopener">
+        <b-navbar-item href="https://github.com/Shivelle" target="_blank" rel="noopener" aria-label="GitHub">
           <font-awesome-icon :icon="['fab', 'github']" />
         </b-navbar-item>
-        <b-navbar-item href="https://codepen.io/Shivelle" target="_blank" rel="noopener">
+        <b-navbar-item href="https://codepen.io/Shivelle" target="_blank" rel="noopener" aria-label="CodePen">
           <font-awesome-icon :icon="['fab', 'codepen']" />
         </b-navbar-item>
-        <b-navbar-item href="https://twitter.com/_Shivelle_" target="_blank" rel="noopener">
+        <b-navbar-item href="https://twitter.com/_Shivelle_" target="_blank" rel="noopener" aria-label="Twitter">
           <font-awesome-icon :icon="['fab', 'twitter']" />
         </b-navbar-item>
-        <b-navbar-item href="https://www.linkedin.com/in/sarah-maria-leidisch-a7758277/" target="_blank" rel="noopener">
+        <b-navbar-item href="https://www.linkedin.com/in/sarah-maria-leidisch-a7758277/" target="_blank" rel="noopener" aria-label="LinkedIn">
           <font-awesome-icon :icon="['fab', 'linkedin']" />
         </b-navbar-item>
       </div>
