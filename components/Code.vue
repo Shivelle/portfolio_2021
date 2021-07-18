@@ -41,7 +41,7 @@
                       </a>
                     </div>
                     <div class="column">
-                      <p>Circular Navigation</p>
+                      <p>Circle Navigation</p>
                       <a href="https://codepen.io/Shivelle/full/eBxEvJ" target="_blank" rel="noopener">
                         <img src="~assets/img/cp/circular_nav.jpg" alt="circular nav" loading="lazy">
                       </a>
