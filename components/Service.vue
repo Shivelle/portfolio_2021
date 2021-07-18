@@ -18,7 +18,14 @@
         </div>
         <div class="column">
           <div class="dots-image pt-6 is-pulled-right">
-            <img alt="Sarah" class="image" src="~assets/img/m2.jpg">
+            <img
+              alt="Sarah"
+              class="image"
+              src="~assets/img/m2.jpg"
+              height="400"
+              width="600"
+              loading="lazy"
+            >
             <div class="dots" />
             <div class="experience-info is-size-1 is-uppercase has-text-weight-bold is-flex">
               <div class="experience-number">
