@@ -83,7 +83,13 @@
                     <div class="column">
                       <span>Portfolio 2017</span>
                       <a href="https://shivelle.github.io/" target="_blank" rel="noopener">
-                        <img src="~assets/img/demos/hp_old.jpg" alt="Homepage V1" loading="lazy">
+                        <img
+                          src="~assets/img/demos/hp_old.jpg"
+                          alt="Homepage V1"
+                          height="75"
+                          width="350"
+                          loading="lazy"
+                        >
                       </a>
                     </div>
                   </div>

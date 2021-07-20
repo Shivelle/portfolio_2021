@@ -11,17 +11,17 @@
     </div>
     <hero />
     <skills />
-    <lazy-projects />
-    <lazy-service />
-    <lazy-technologies />
-    <lazy-code />
+    <projects />
+    <service />
+    <technologies />
+    <code />
 
     <section id="contact" class="section fullpage is-flex is-align-items-center">
       <div class="container">
         <h2 class="is-size-2 has-text-white mb-6 mt-3 is-uppercase has-text-weight-bold">
           {{ $t('section.contact.title') }}
         </h2>
-        <lazy-contactForm />
+        <contactForm />
       </div>
     </section>
   </div>
