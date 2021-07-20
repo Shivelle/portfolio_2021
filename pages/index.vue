@@ -39,16 +39,6 @@ export default {
       touchStartY: 0
     }
   },
-  head () {
-    return {
-      htmlAttrs: {
-        lang: this.$i18n.locale
-      },
-      meta: [
-        { name: 'viewport', content: 'width=device-width, initial-scale=1' }
-      ]
-    }
-  },
   mounted () {
     window.addEventListener('DOMMouseScroll', this.handleMouseWheelDOM) // Firefox
     window.addEventListener('mousewheel', this.handleMouseWheel, {
