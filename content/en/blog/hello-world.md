@@ -2,7 +2,7 @@
 title: Hello world
 category: web
 description: This is a test article to test the English version of the blog
-media: /img/blog/binary.jpg
+media: /img/blog/m2.jpg
 tags:
   - code
   - nuxt

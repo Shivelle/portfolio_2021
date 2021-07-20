@@ -2,7 +2,7 @@
 title: Hallo Welt
 category: web
 description: Das ist der erste Artikel dieses Blogs.
-media: /img/blog/binary.jpg
+media: /img/blog/m2.jpg
 tags:
   - code
   - nuxt
