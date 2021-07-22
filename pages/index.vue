@@ -13,8 +13,8 @@
     <skills />
     <projects />
     <service />
-    <technologies />
-    <code />
+    <Technologies />
+    <Code />
 
     <section id="contact" class="section fullpage is-flex is-align-items-center">
       <div class="container">

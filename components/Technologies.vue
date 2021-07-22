@@ -1,5 +1,5 @@
 <template>
-  <section class="section fullpage has-text-white is-fullheight is-flex is-align-items-center">
+  <section class="section fullpage has-text-white is-fullheight is-flex is-align-items-center is-hidden-mobile">
     <div class="container">
       <h2 class="is-size-2 is-uppercase mb-6 mt-3 has-text-weight-bold">
         {{ $t('section.technologies.title') }}
