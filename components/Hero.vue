@@ -1,6 +1,6 @@
 <template>
   <section class="hero is-fullheight is-clipped">
-    <div class="hero-img" />
+    <div class="hero-img is-hidden-mobile" />
     <div class="hero-body">
       <div class="container">
         <p class="subtitle mb-5 has-text-white">
