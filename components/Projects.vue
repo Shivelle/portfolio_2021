@@ -1,6 +1,6 @@
 <template>
-  <section class="section fullpage has-text-white is-relative is-clipped is-flex is-align-items-center">
-    <div class="section-bg" />
+  <section class="section fullpage has-text-white is-relative is-clipped">
+    <div class="section-bg is-hidden-mobile" />
     <div class="container">
       <h2 class="is-size-2 mb-6 mt-3 is-uppercase has-text-weight-bold">
         {{ $t('section.projects.title') }}
