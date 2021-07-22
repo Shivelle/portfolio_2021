@@ -43,7 +43,37 @@ export default {
     // https://go.nuxtjs.dev/stylelint
     '@nuxtjs/stylelint-module',
     '@nuxtjs/style-resources',
-    '@nuxtjs/fontawesome'
+    '@nuxtjs/fontawesome',
+    [
+      'nuxt-i18n',
+      {
+        vueI18nLoader: true,
+        strategy: 'prefix',
+        defaultLocale: 'de',
+        locales: [
+          {
+            code: 'en',
+            name: 'English'
+          },
+          {
+            code: 'de',
+            name: 'Deutsch'
+          }
+        ],
+        vueI18n: i18n,
+        parsePages: false, // Disable babel parsing
+        pages: {
+          imprint: {
+            de: '/impressum',
+            en: '/imprint'
+          },
+          dataProtection: {
+            de: '/datenschutz',
+            en: '/data-protection'
+          }
+        }
+      }
+    ]
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -52,36 +82,10 @@ export default {
     'nuxt-buefy',
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
-    'nuxt-i18n',
     '@nuxtjs/date-fns'
   ],
 
   i18n: {
-    vueI18nLoader: true,
-    strategy: 'prefix',
-    defaultLocale: 'de',
-    locales: [
-      {
-        code: 'en',
-        name: 'English'
-      },
-      {
-        code: 'de',
-        name: 'Deutsch'
-      }
-    ],
-    vueI18n: i18n,
-    parsePages: false, // Disable babel parsing
-    pages: {
-      imprint: {
-        de: '/impressum',
-        en: '/imprint'
-      },
-      dataProtection: {
-        de: '/datenschutz',
-        en: '/data-protection'
-      }
-    }
   },
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
@@ -102,5 +106,14 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+    extractCSS: true,
+    optimization: {
+      splitChunks: {
+        chunks: 'all',
+        automaticNameDelimiter: '.',
+        name: 'test',
+        maxSize: 256000
+      }
+    }
   }
 }
