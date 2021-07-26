@@ -7565,9 +7565,9 @@ nuxt-buefy@^0.4.8:
   dependencies:
     buefy "^0.9.8"
 
-nuxt-i18n@^6.27.3:
-  version "6.27.3"
-  resolved "https://registry.npmjs.org/nuxt-i18n/-/nuxt-i18n-6.27.3.tgz"
+nuxt-i18n@^6.28.0:
+  version "6.28.0"
+  resolved "https://registry.yarnpkg.com/nuxt-i18n/-/nuxt-i18n-6.28.0.tgz#05924b8cf4b12633041a547b39e43db2f1f852a8"
   dependencies:
     "@babel/parser" "^7.14.7"
     "@babel/traverse" "^7.14.7"
@@ -7580,7 +7580,7 @@ nuxt-i18n@^6.27.3:
     klona "^2.0.4"
     lodash.merge "^4.6.2"
     ufo "^0.7.7"
-    vue-i18n "^8.24.5"
+    vue-i18n "^8.25.0"
 
 nuxt@^2.15.7:
   version "2.15.7"
@@ -10773,9 +10773,9 @@ vue-hot-reload-api@^2.3.0:
   version "2.3.4"
   resolved "https://registry.npmjs.org/vue-hot-reload-api/-/vue-hot-reload-api-2.3.4.tgz"
 
-vue-i18n@^8.24.5:
-  version "8.24.5"
-  resolved "https://registry.npmjs.org/vue-i18n/-/vue-i18n-8.24.5.tgz"
+vue-i18n@^8.25.0:
+  version "8.25.0"
+  resolved "https://registry.yarnpkg.com/vue-i18n/-/vue-i18n-8.25.0.tgz#1037d9295fa2845a230b771de473481edb2cfc4c"
 
 vue-jest@^3.0.4:
   version "3.0.7"
