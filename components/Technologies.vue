@@ -139,7 +139,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-  @import "~/node_modules/devicon/devicon.min.css";
 
   .devicon {
     i {
