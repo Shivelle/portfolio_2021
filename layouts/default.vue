@@ -32,6 +32,7 @@ export default {
 </script>
 
 <style lang="scss">
+  @import "~/node_modules/devicon/devicon.min.css";
   // global styling
   body {
     padding-top: 0 !important; // buefy fixed nav fix

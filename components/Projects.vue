@@ -112,7 +112,6 @@
 </template>
 
 <style lang="scss" scoped>
-  @import "~/node_modules/devicon/devicon.min.css";
 
   .section-bg {
     background-image: url('~/assets/img/bg/abstract2.jpg');
