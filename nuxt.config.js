@@ -25,6 +25,11 @@ export default {
     '~assets/scss/app.scss'
   ],
 
+  buefy: {
+    materialDesignIcons: false,
+    materialDesignIconsHRef: '/'
+  },
+
   styleResources: {
     scss: ['./assets/scss/*.scss']
   },
