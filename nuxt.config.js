@@ -119,6 +119,20 @@ export default {
         name: 'test',
         maxSize: 256000
       }
+    },
+    html: {
+      minify:
+      {
+        collapseBooleanAttributes: true,
+        decodeEntities: true,
+        minifyCSS: true,
+        minifyJS: true,
+        processConditionalComments: true,
+        removeEmptyAttributes: true,
+        removeRedundantAttributes: true,
+        trimCustomFragments: true,
+        useShortDoctype: true
+      }
     }
   }
 }
