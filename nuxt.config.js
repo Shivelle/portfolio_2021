@@ -1,3 +1,6 @@
+import path from 'path'
+import PurgecssPlugin from 'purgecss-webpack-plugin'
+import glob from 'glob-all'
 import i18n from './config/i18n.js'
 
 export default {
@@ -112,6 +115,21 @@ export default {
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
     extractCSS: true,
+    extend (config, { isDev, isClient }) {
+      // preview changes by setting !isDev to isDev
+      if (!isDev && isClient) {
+        config.plugins.push(
+          new PurgecssPlugin({
+            paths: glob.sync([
+              path.join(__dirname, './pages/**/*.vue'),
+              path.join(__dirname, './layouts/**/*.vue'),
+              path.join(__dirname, './components/**/*.vue')
+            ]),
+            whitelist: ['html', 'body']
+          })
+        )
+      }
+    },
     optimization: {
       splitChunks: {
         chunks: 'all',
