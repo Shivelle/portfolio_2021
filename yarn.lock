@@ -1520,13 +1520,13 @@
     "@fortawesome/fontawesome-svg-core" "^1.2.27"
     "@fortawesome/vue-fontawesome" "^0.1.9"
 
-"@nuxtjs/style-resources@^1.2.0":
-  version "1.2.0"
-  resolved "https://registry.npmjs.org/@nuxtjs/style-resources/-/style-resources-1.2.0.tgz"
+"@nuxtjs/style-resources@^1.2.1":
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/style-resources/-/style-resources-1.2.1.tgz#9a2b6580b2ed9b06e930bee488a56b8376a263de"
   dependencies:
     consola "^2.15.3"
     glob-all "^3.2.1"
-    sass-resources-loader "^2.2.3"
+    sass-resources-loader "^2.2.4"
 
 "@nuxtjs/stylelint-module@^4.0.0":
   version "4.0.0"
@@ -9348,9 +9348,9 @@ sass-loader@^10:
     schema-utils "^3.0.0"
     semver "^7.3.2"
 
-sass-resources-loader@^2.2.3:
-  version "2.2.3"
-  resolved "https://registry.npmjs.org/sass-resources-loader/-/sass-resources-loader-2.2.3.tgz"
+sass-resources-loader@^2.2.4:
+  version "2.2.4"
+  resolved "https://registry.yarnpkg.com/sass-resources-loader/-/sass-resources-loader-2.2.4.tgz#1a86fba499e74a88cb7ce95f0c98449f348d360e"
   dependencies:
     async "^3.2.0"
     chalk "^4.1.0"
