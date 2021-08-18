@@ -21,7 +21,7 @@
     "@nuxtjs/eslint-module": "^3.0.2",
     "@nuxtjs/fontawesome": "^1.1.2",
     "buefy": "^0.9.7",
-    "core-js": "^3.16.1",
+    "core-js": "^3.16.2",
     "devicon": "^2.13.0",
     "i18n": "^0.13.3",
     "nuxt": "^2.15.8",
