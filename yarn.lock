@@ -9116,9 +9116,9 @@ remark-autolink-headings@^6.0.1:
     extend "^3.0.0"
     unist-util-visit "^2.0.0"
 
-remark-emoji@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.npmjs.org/remark-emoji/-/remark-emoji-3.0.0.tgz"
+remark-emoji@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/remark-emoji/-/remark-emoji-3.0.1.tgz#984286b79f708405519e8d09e79b650bee7fde30"
   dependencies:
     emoticon "^4.0.0"
     node-emoji "^1.11.0"
