@@ -27,7 +27,7 @@
     "nuxt": "^2.15.8",
     "nuxt-buefy": "^0.4.8",
     "nuxt-i18n": "^6.28.0",
-    "remark-emoji": "^3.0.0",
+    "remark-emoji": "^3.0.1",
     "stylelint-scss": "^3.20.1"
   },
   "devDependencies": {
