@@ -2891,9 +2891,9 @@ bser@2.1.1:
   dependencies:
     node-int64 "^0.4.0"
 
-buefy@^0.9.7, buefy@^0.9.8:
-  version "0.9.8"
-  resolved "https://registry.npmjs.org/buefy/-/buefy-0.9.8.tgz"
+buefy@^0.9.8, buefy@^0.9.9:
+  version "0.9.9"
+  resolved "https://registry.yarnpkg.com/buefy/-/buefy-0.9.9.tgz#22f740dc76153e2fde7776a8f7326e725610fc47"
   dependencies:
     bulma "0.9.3"
 
