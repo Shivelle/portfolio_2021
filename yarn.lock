@@ -2891,9 +2891,9 @@ bser@2.1.1:
   dependencies:
     node-int64 "^0.4.0"
 
-buefy@^0.9.7, buefy@^0.9.8:
-  version "0.9.8"
-  resolved "https://registry.npmjs.org/buefy/-/buefy-0.9.8.tgz"
+buefy@^0.9.7, buefy@^0.9.9:
+  version "0.9.9"
+  resolved "https://registry.yarnpkg.com/buefy/-/buefy-0.9.9.tgz#22f740dc76153e2fde7776a8f7326e725610fc47"
   dependencies:
     bulma "0.9.3"
 
@@ -7606,11 +7606,11 @@ number-is-nan@^1.0.0:
   version "1.0.1"
   resolved "https://registry.npmjs.org/number-is-nan/-/number-is-nan-1.0.1.tgz"
 
-nuxt-buefy@^0.4.8:
-  version "0.4.8"
-  resolved "https://registry.npmjs.org/nuxt-buefy/-/nuxt-buefy-0.4.8.tgz"
+nuxt-buefy@^0.4.9:
+  version "0.4.9"
+  resolved "https://registry.yarnpkg.com/nuxt-buefy/-/nuxt-buefy-0.4.9.tgz#f933e7f1fa13debfe604b43f5d39b279fc8b1559"
   dependencies:
-    buefy "^0.9.8"
+    buefy "^0.9.9"
 
 nuxt-i18n@^6.28.1:
   version "6.28.1"
