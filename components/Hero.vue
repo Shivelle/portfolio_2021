@@ -17,23 +17,3 @@
     </div>
   </section>
 </template>
-
-<style lang="scss" scoped>
-  .hero-img {
-    background-image: url('~/assets/img/hero-img.jpg');
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100vw;
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
-    opacity: 0.2;
-
-    @include prefix('filter', 'blur(4px)');
-  }
-
-  .hero-body {
-    z-index: 2;
-  }
-</style>

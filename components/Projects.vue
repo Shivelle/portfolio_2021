@@ -1,5 +1,5 @@
 <template>
-  <section class="section fullpage has-text-white is-relative is-clipped">
+  <section id="projects-section" class="section fullpage has-text-white is-relative is-clipped">
     <div class="section-bg is-hidden-mobile" />
     <div class="container">
       <h2 class="is-size-2 mb-6 mt-3 is-uppercase has-text-weight-bold">
@@ -110,59 +110,3 @@
     </div>
   </section>
 </template>
-
-<style lang="scss" scoped>
-
-  .section-bg {
-    background-image: url('~/assets/img/bg/abstract2.jpg');
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-position: center;
-    opacity: 0.2;
-
-    @include prefix('filter', 'blur(4px)');
-  }
-
-  .devicons {
-    @include prefix('filter', 'saturate(80%);');
-  }
-
-  .hr-bottom {
-    height: 0.6rem;
-    width: 3rem;
-
-    @include prefix('border-radius', '0.25rem');
-  }
-
-  .border-white {
-    @include prefix('border', '3px solid #272727');
-  }
-
-  .article.tile.is-child {
-    @include prefix('transition', '0.5s ease all');
-  }
-
-  .ep:hover {
-    @include prefix('border', '3px solid #00b9ba');
-  }
-
-  .cp:hover {
-    @include prefix('border', '3px solid #6e96cb');
-  }
-
-  .cd:hover {
-    @include prefix('border', '3px solid #3cbc8d');
-  }
-
-  .crm:hover {
-    @include prefix('border', '3px solid #292a4d');
-  }
-
-  .hn:hover {
-    @include prefix('border', '3px solid #ef8a17');
-  }
-</style>

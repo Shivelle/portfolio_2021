@@ -11,7 +11,7 @@
   >
     <input type="hidden" name="form-name" value="portfolio">
     <p class="is-hidden">
-      <label>Don’t fill this out if you're human: <input name="bot-field"></input></label>
+      <label>Don’t fill this out if you're human: <input name="bot-field"></label>
     </p>
     <div class="columns">
       <div class="column">
@@ -78,13 +78,3 @@ export default {
   }
 }
 </script>
-
-<style lang="scss" scoped>
-  form {
-    .field .input,
-    .field .textarea {
-      border: 1px solid red !important;
-      background-color: $dark-lighter;
-    }
-  }
-</style>

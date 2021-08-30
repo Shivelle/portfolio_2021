@@ -34,24 +34,3 @@ export default {
   }
 }
 </script>
-
-<style lang="scss" scoped>
-  #cookie-box {
-    position: fixed;
-    content: '';
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    line-height: 2.5;
-    opacity: 0;
-    visibility: hidden;
-    z-index: 5;
-
-    @include prefix('transition', '0.3s all ease-out');
-
-    &.active {
-      opacity: 1;
-      visibility: visible;
-    }
-  }
-</style>

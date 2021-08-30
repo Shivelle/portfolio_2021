@@ -1,5 +1,5 @@
 <template>
-  <section class="section fullpage has-text-white bg-dark-lighter is-relative is-flex is-align-items-center is-hidden-mobile">
+  <section id="code-section" class="section fullpage has-text-white bg-dark-lighter is-relative is-flex is-align-items-center is-hidden-mobile">
     <div class="section-bg" />
     <div class="container">
       <div class="columns">
@@ -139,23 +139,3 @@ export default {
   }
 }
 </script>
-
-<style lang="scss" scoped>
-  .section-bg {
-    background-image: url('~/assets/img/bg/abstract2.jpg');
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-position: center;
-    opacity: 0.2;
-
-    @include prefix('filter', 'blur(4px)');
-  }
-
-  .carousel-content {
-    height: 80vh;
-  }
-</style>

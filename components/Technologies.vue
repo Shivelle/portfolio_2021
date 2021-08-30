@@ -1,5 +1,5 @@
 <template>
-  <section class="section fullpage has-text-white is-fullheight is-flex is-align-items-center is-hidden-mobile">
+  <section id="technolgies-section" class="section fullpage has-text-white is-fullheight is-flex is-align-items-center is-hidden-mobile">
     <div class="container">
       <h2 class="is-size-2 is-uppercase mb-6 mt-3 has-text-weight-bold">
         {{ $t('section.technologies.title') }}
@@ -137,20 +137,3 @@ export default {
   }
 }
 </script>
-
-<style lang="scss" scoped>
-
-  .devicon {
-    i {
-      display: block;
-      font-size: 5rem;
-      opacity: 0.2;
-
-      @include prefix('transition', '0.5s ease all');
-    }
-
-    &:hover i {
-      opacity: 0.8;
-    }
-  }
-</style>

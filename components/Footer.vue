@@ -1,5 +1,5 @@
 <template>
-  <section class="fullpage">
+  <section>
     <footer class="footer bg-dark-lighter">
       <div class="content has-text-centered has-text-white">
         <p>
@@ -24,13 +24,3 @@
     </footer>
   </section>
 </template>
-
-<script>
-// document.cookie()
-</script>
-
-<style lang="scss" scoped>
-  section.fullpage {
-    min-height: auto !important;
-  }
-</style>

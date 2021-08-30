@@ -12,17 +12,3 @@
     </li>
   </ul>
 </template>
-
-<style lang="scss">
-  .lang-switch {
-    display: inline;
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    z-index: 3;
-
-    a {
-      color: $orange;
-    }
-  }
-</style>
