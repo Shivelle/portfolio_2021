@@ -8,12 +8,10 @@
         <div
           v-for="(devicon, i) in devicons"
           :key="i"
-          class="devicon"
-          @mouseenter="devicon.isColored = true"
-          @mouseleave="devicon.isColored = false"
+          class="devicon p-6"
         >
           <i
-            :class="[`${devicon.icon} p-6`, {colored: devicon.isColored}]"
+            :class="[`${devicon.icon} is-size-1`]"
             :title="`${devicon.title}`"
           />
         </div>
