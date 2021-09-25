@@ -4409,9 +4409,9 @@ eslint-plugin-unicorn@^28.0.2:
     safe-regex "^2.1.1"
     semver "^7.3.4"
 
-eslint-plugin-vue@^7.1.0, eslint-plugin-vue@^7.17.0, eslint-plugin-vue@^7.9.0:
-  version "7.17.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-vue/-/eslint-plugin-vue-7.17.0.tgz#41e0bdb5effca5ee26f087f924be987eb41ef573"
+eslint-plugin-vue@^7.1.0, eslint-plugin-vue@^7.18.0, eslint-plugin-vue@^7.9.0:
+  version "7.18.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-vue/-/eslint-plugin-vue-7.18.0.tgz#02a452142330c7f27c242db21a1b9e25238540f6"
   dependencies:
     eslint-utils "^2.1.0"
     natural-compare "^1.4.0"
