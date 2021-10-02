@@ -4051,9 +4051,9 @@ devalue@^2.0.1:
   version "2.0.1"
   resolved "https://registry.npmjs.org/devalue/-/devalue-2.0.1.tgz"
 
-devicon@^2.13.0:
-  version "2.13.0"
-  resolved "https://registry.npmjs.org/devicon/-/devicon-2.13.0.tgz"
+devicon@^2.14.0:
+  version "2.14.0"
+  resolved "https://registry.yarnpkg.com/devicon/-/devicon-2.14.0.tgz#d54d7baad383ecd569318893b9f24081cfab5964"
 
 diff-sequences@^27.0.6:
   version "27.0.6"
