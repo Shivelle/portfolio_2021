@@ -22,7 +22,7 @@
     "@nuxtjs/fontawesome": "^1.1.2",
     "buefy": "^0.9.7",
     "core-js": "^3.18.1",
-    "devicon": "^2.13.0",
+    "devicon": "^2.14.0",
     "i18n": "^0.13.3",
     "nuxt": "^2.15.8",
     "nuxt-buefy": "^0.4.10",
