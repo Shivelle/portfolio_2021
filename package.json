@@ -28,7 +28,7 @@
     "nuxt-buefy": "^0.4.10",
     "nuxt-i18n": "^6.28.1",
     "remark-emoji": "^3.0.1",
-    "stylelint-scss": "^3.20.1"
+    "stylelint-scss": "^3.21.0"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^6.0.0",
