@@ -9398,8 +9398,8 @@ sass-loader@10.1.1:
     semver "^7.3.2"
 
 sass-loader@^12:
-  version "12.2.0"
-  resolved "https://registry.yarnpkg.com/sass-loader/-/sass-loader-12.2.0.tgz#b370010fb0ababae2ef9c6c89e05d6c6debc6042"
+  version "12.3.0"
+  resolved "https://registry.yarnpkg.com/sass-loader/-/sass-loader-12.3.0.tgz#93278981c189c36a58cbfc37d4b9cef0cdc02871"
   dependencies:
     klona "^2.0.4"
     neo-async "^2.6.2"
