@@ -9219,13 +9219,13 @@ remark-autolink-headings@^6.0.1:
     extend "^3.0.0"
     unist-util-visit "^2.0.0"
 
-remark-emoji@^3.0.1:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/remark-emoji/-/remark-emoji-3.0.1.tgz#984286b79f708405519e8d09e79b650bee7fde30"
+remark-emoji@^3.0.2:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/remark-emoji/-/remark-emoji-3.0.2.tgz#786e88af1ecae682d74d7e1219989f34708205da"
   dependencies:
     emoticon "^4.0.0"
     node-emoji "^1.11.0"
-    unist-util-visit "^4.0.0"
+    unist-util-visit "^4.1.0"
 
 remark-external-links@^8.0.0:
   version "8.0.0"
@@ -10751,9 +10751,9 @@ unist-util-visit@^2.0.0:
     unist-util-is "^4.0.0"
     unist-util-visit-parents "^3.0.0"
 
-unist-util-visit@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.npmjs.org/unist-util-visit/-/unist-util-visit-4.0.0.tgz"
+unist-util-visit@^4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/unist-util-visit/-/unist-util-visit-4.1.0.tgz#f41e407a9e94da31594e6b1c9811c51ab0b3d8f5"
   dependencies:
     "@types/unist" "^2.0.0"
     unist-util-is "^5.0.0"
