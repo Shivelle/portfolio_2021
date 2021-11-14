@@ -2,7 +2,7 @@
 
 # portfolio_2021
 
-This is my personal portfolio, made with Nuxt.js, using Nuxt Content for a blog, Nuxt I18n for English/German versions of the page and Buefy as CSS framework. 
+This is the 2021 version of my personal portfolio, made with Nuxt.js(v2.x), using Nuxt Content for a blog, Nuxt I18n for English/German versions of the page and Buefy as CSS framework. 
 
 It's still a MVP setup but feel free to look into the current state to get inspirations for your next project.
 
