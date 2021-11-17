@@ -8,7 +8,7 @@ It's still a MVP setup but feel free to look into the current state to get inspi
 
 ### Docs
 Check out these documentation for more information:
-[Nuxt](https://nuxtjs.org/docs/2.x/get-started/installation)
-[Nuxt I18n](https://i18n.nuxtjs.org/)
-[Nuxt Content](https://content.nuxtjs.org/themes/docs/)
-[Buefy](https://buefy.org/documentation/)
+- [Nuxt](https://nuxtjs.org/docs/2.x/get-started/installation)
+- [Nuxt I18n](https://i18n.nuxtjs.org/)
+- [Nuxt Content](https://content.nuxtjs.org/themes/docs/)
+- [Buefy](https://buefy.org/documentation/)
