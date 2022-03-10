@@ -20,7 +20,7 @@
     "@nuxtjs/date-fns": "^1.5.0",
     "@nuxtjs/eslint-module": "^3.0.2",
     "@nuxtjs/fontawesome": "^1.1.2",
-    "buefy": "^0.9.14",
+    "buefy": "^0.9.19",
     "core-js": "^3.21.1",
     "devicon": "^2.14.0",
     "i18n": "^0.14.2",
