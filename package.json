@@ -13,7 +13,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "@fortawesome/free-brands-svg-icons": "^5.15.4",
+    "@fortawesome/free-brands-svg-icons": "^6.1.0",
     "@fortawesome/free-solid-svg-icons": "^6.0.0",
     "@luxdamore/nuxt-prune-html": "^2.0.6",
     "@nuxt/content": "^1.15.1",
