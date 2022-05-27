@@ -6046,9 +6046,9 @@ humanize-ms@^1.2.1:
   dependencies:
     ms "^2.0.0"
 
-i18n@^0.14.2:
-  version "0.14.2"
-  resolved "https://registry.yarnpkg.com/i18n/-/i18n-0.14.2.tgz#a583378f21072314774f8c45ea15799705ca93f4"
+i18n@^0.15.0:
+  version "0.15.0"
+  resolved "https://registry.yarnpkg.com/i18n/-/i18n-0.15.0.tgz#dca7a498a4371874db01f6610381a412897306eb"
   dependencies:
     "@messageformat/core" "^3.0.0"
     debug "^4.3.3"
