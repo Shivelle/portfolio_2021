@@ -18,7 +18,7 @@
     "@luxdamore/nuxt-prune-html": "^2.0.6",
     "@nuxt/content": "^2.0.1",
     "@nuxtjs/date-fns": "^1.5.0",
-    "@nuxtjs/eslint-module": "^3.0.2",
+    "@nuxtjs/eslint-module": "^3.1.0",
     "@nuxtjs/fontawesome": "^1.1.2",
     "buefy": "^0.9.21",
     "core-js": "^3.22.7",
