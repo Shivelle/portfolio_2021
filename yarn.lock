@@ -1699,9 +1699,9 @@
     std-env "^2.3.0"
     ufo "^0.7.4"
 
-"@nuxt/content@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@nuxt/content/-/content-2.0.0.tgz#f93f3ee10777fdf2d6c0531c4461604e02be4b98"
+"@nuxt/content@^2.0.1":
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@nuxt/content/-/content-2.0.1.tgz#aad15f62d2614d0e73e7a5e1381d447b2bc30963"
   dependencies:
     "@nuxt/kit" "^3.0.0-rc.3"
     csvtojson "^2.0.10"
@@ -1747,7 +1747,7 @@
     unist-util-position "^4.0.3"
     unist-util-visit "^4.1.0"
     unstorage "^0.4.1"
-    ws "^8.6.0"
+    ws "^8.7.0"
 
 "@nuxt/core@2.15.8":
   version "2.15.8"
@@ -12456,7 +12456,7 @@ ws@^7.3.1, ws@^7.4.5:
   version "7.5.0"
   resolved "https://registry.npmjs.org/ws/-/ws-7.5.0.tgz"
 
-ws@^8.6.0:
+ws@^8.6.0, ws@^8.7.0:
   version "8.7.0"
   resolved "https://registry.yarnpkg.com/ws/-/ws-8.7.0.tgz#eaf9d874b433aa00c0e0d8752532444875db3957"
 
