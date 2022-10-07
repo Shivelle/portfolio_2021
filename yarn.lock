@@ -10537,8 +10537,8 @@ sass-graph@4.0.0:
     yargs "^17.2.1"
 
 sass-loader@^13:
-  version "13.0.0"
-  resolved "https://registry.yarnpkg.com/sass-loader/-/sass-loader-13.0.0.tgz#0b4bff0289951ed21240bca54453eca3dbda1713"
+  version "13.1.0"
+  resolved "https://registry.yarnpkg.com/sass-loader/-/sass-loader-13.1.0.tgz#e5b9acf14199a9bc6eaed7a0b8b23951c2cebf6f"
   dependencies:
     klona "^2.0.4"
     neo-async "^2.6.2"
