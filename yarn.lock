@@ -3423,7 +3423,7 @@ bser@2.1.1:
   dependencies:
     node-int64 "^0.4.0"
 
-buefy@^0.9.21, buefy@^0.9.22:
+buefy@^0.9.22:
   version "0.9.22"
   resolved "https://registry.yarnpkg.com/buefy/-/buefy-0.9.22.tgz#6172dd498b138f5689c9e12671235db772c1f66c"
   dependencies:
@@ -8803,11 +8803,11 @@ num2fraction@^1.2.2:
   version "1.2.2"
   resolved "https://registry.npmjs.org/num2fraction/-/num2fraction-1.2.2.tgz"
 
-nuxt-buefy@^0.4.23:
-  version "0.4.23"
-  resolved "https://registry.yarnpkg.com/nuxt-buefy/-/nuxt-buefy-0.4.23.tgz#d2283e043df786358626d51f875df592312c1870"
+nuxt-buefy@^0.4.24:
+  version "0.4.24"
+  resolved "https://registry.yarnpkg.com/nuxt-buefy/-/nuxt-buefy-0.4.24.tgz#f7a9c95071f1f199d03675bac2959e75e2c48fc6"
   dependencies:
-    buefy "^0.9.21"
+    buefy "^0.9.22"
 
 nuxt-i18n@^6.28.1:
   version "6.28.1"
