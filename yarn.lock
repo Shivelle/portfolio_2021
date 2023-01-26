@@ -108,7 +108,7 @@
     semver "^6.3.0"
     source-map "^0.5.0"
 
-"@babel/core@^7.20.7":
+"@babel/core@^7.20.12":
   version "7.20.12"
   resolved "https://registry.yarnpkg.com/@babel/core/-/core-7.20.12.tgz#7930db57443c6714ad216953d1356dac0eb8496d"
   dependencies:
@@ -1149,9 +1149,9 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
-"@babel/standalone@^7.20.11":
-  version "7.20.12"
-  resolved "https://registry.yarnpkg.com/@babel/standalone/-/standalone-7.20.12.tgz#ae882b8642b4efb1ddd80c8a64a929e028095562"
+"@babel/standalone@^7.20.12":
+  version "7.20.13"
+  resolved "https://registry.yarnpkg.com/@babel/standalone/-/standalone-7.20.13.tgz#187d0cbacee5700eeedaff7583e7345a64aa7c3a"
 
 "@babel/template@^7.14.5", "@babel/template@^7.3.3":
   version "7.14.5"
@@ -1795,23 +1795,23 @@
     std-env "^2.3.0"
     ufo "^0.7.4"
 
-"@nuxt/content@^2.3.0":
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/@nuxt/content/-/content-2.3.0.tgz#96e4c2c78b153c6769d35e909539bad5d98a704d"
+"@nuxt/content@^2.4.0":
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/@nuxt/content/-/content-2.4.0.tgz#9a40923d7c3c8527291b1f787b89bcfa580b503c"
   dependencies:
-    "@nuxt/kit" v3.0.0
+    "@nuxt/kit" "3.1.0"
     consola "^2.15.3"
-    defu "^6.1.1"
+    defu "^6.1.2"
     destr "^1.2.2"
     detab "^3.0.2"
     html-tags "^3.2.0"
-    json5 "^2.2.1"
+    json5 "^2.2.3"
     knitwork "^1.0.0"
-    listhen "^1.0.1"
-    mdast-util-to-hast "^12.2.4"
+    listhen "^1.0.2"
+    mdast-util-to-hast "^12.2.6"
     mdurl "^1.0.1"
     ohash "^1.0.0"
-    pathe "^1.0.0"
+    pathe "^1.1.0"
     property-information "^6.2.0"
     rehype-external-links "^2.0.1"
     rehype-raw "^6.1.1"
@@ -1825,16 +1825,16 @@
     remark-rehype "^10.1.0"
     remark-squeeze-paragraphs "^5.0.1"
     scule "^1.0.0"
-    shiki-es "^0.1.2"
+    shiki-es "^0.2.0"
     slugify "^1.6.5"
     socket.io-client "^4.5.4"
     ufo "^1.0.1"
     unified "^10.1.2"
-    unist-builder "^3.0.0"
-    unist-util-position "^4.0.3"
-    unist-util-visit "^4.1.1"
+    unist-builder "^3.0.1"
+    unist-util-position "^4.0.4"
+    unist-util-visit "^4.1.2"
     unstorage "^1.0.1"
-    ws "^8.11.0"
+    ws "^8.12.0"
 
 "@nuxt/core@2.15.8":
   version "2.15.8"
@@ -1878,28 +1878,28 @@
     node-html-parser "^3.2.0"
     ufo "^0.7.4"
 
-"@nuxt/kit@v3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@nuxt/kit/-/kit-3.0.0.tgz#ae49b4e27b15285556cb88f35a56309c5ca0dd79"
+"@nuxt/kit@3.1.0":
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@nuxt/kit/-/kit-3.1.0.tgz#ec0420c7960ac82921d3994ef002485b5bf862b9"
   dependencies:
-    "@nuxt/schema" "3.0.0"
-    c12 "^1.0.1"
+    "@nuxt/schema" "3.1.0"
+    c12 "^1.1.0"
     consola "^2.15.3"
     defu "^6.1.1"
-    globby "^13.1.2"
+    globby "^13.1.3"
     hash-sum "^2.0.0"
-    ignore "^5.2.0"
-    jiti "^1.16.0"
+    ignore "^5.2.4"
+    jiti "^1.16.2"
     knitwork "^1.0.0"
     lodash.template "^4.5.0"
-    mlly "^1.0.0"
+    mlly "^1.1.0"
     pathe "^1.0.0"
     pkg-types "^1.0.1"
     scule "^1.0.0"
     semver "^7.3.8"
-    unctx "^2.1.0"
-    unimport "^1.0.1"
-    untyped "^1.0.0"
+    unctx "^2.1.1"
+    unimport "^2.0.1"
+    untyped "^1.2.2"
 
 "@nuxt/loading-screen@^2.0.3":
   version "2.0.4"
@@ -1919,22 +1919,23 @@
     consola "^2.15.0"
     node-fetch "^2.6.1"
 
-"@nuxt/schema@3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@nuxt/schema/-/schema-3.0.0.tgz#d499fd7d8309f9bd3403411b32c19e726969cd71"
+"@nuxt/schema@3.1.0":
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@nuxt/schema/-/schema-3.1.0.tgz#3a7384b02ecb5cd49af2f88b1cb68d17a11b1bec"
   dependencies:
-    c12 "^1.0.1"
+    c12 "^1.1.0"
     create-require "^1.1.1"
     defu "^6.1.1"
-    jiti "^1.16.0"
+    hookable "^5.4.2"
+    jiti "^1.16.2"
     pathe "^1.0.0"
     pkg-types "^1.0.1"
     postcss-import-resolver "^2.0.0"
     scule "^1.0.0"
     std-env "^3.3.1"
-    ufo "^1.0.0"
-    unimport "^1.0.1"
-    untyped "^1.0.0"
+    ufo "^1.0.1"
+    unimport "^2.0.1"
+    untyped "^1.2.2"
 
 "@nuxt/server@2.15.8":
   version "2.15.8"
@@ -3468,7 +3469,7 @@ bytes@3.0.0:
   version "3.0.0"
   resolved "https://registry.npmjs.org/bytes/-/bytes-3.0.0.tgz"
 
-c12@^1.0.1:
+c12@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/c12/-/c12-1.1.0.tgz#2d73596c885f0b990dcd91244b15e3c0405ebbeb"
   dependencies:
@@ -4544,9 +4545,9 @@ defu@^5.0.0:
   version "5.0.0"
   resolved "https://registry.npmjs.org/defu/-/defu-5.0.0.tgz"
 
-defu@^6.0.0, defu@^6.1.1:
-  version "6.1.1"
-  resolved "https://registry.yarnpkg.com/defu/-/defu-6.1.1.tgz#a12c712349197c545dc61d3cd3b607b4cc7ef0c1"
+defu@^6.0.0, defu@^6.1.1, defu@^6.1.2:
+  version "6.1.2"
+  resolved "https://registry.yarnpkg.com/defu/-/defu-6.1.2.tgz#1217cba167410a1765ba93893c6dbac9ed9d9e5c"
 
 delayed-stream@~1.0.0:
   version "1.0.0"
@@ -5674,11 +5675,9 @@ get-port-please@^2.2.0:
   dependencies:
     fs-memo "^1.2.0"
 
-get-port-please@^2.6.1:
-  version "2.6.1"
-  resolved "https://registry.yarnpkg.com/get-port-please/-/get-port-please-2.6.1.tgz#80143de24fcaab39b01df977f66ad967e06b17d1"
-  dependencies:
-    fs-memo "^1.2.0"
+get-port-please@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/get-port-please/-/get-port-please-3.0.1.tgz#a24953a41dc249f76869ac25e81d6623e61ab010"
 
 get-stdin@^4.0.1:
   version "4.0.1"
@@ -5815,7 +5814,7 @@ globby@11.x.x, globby@^11.0.3, globby@^11.0.4:
     merge2 "^1.3.0"
     slash "^3.0.0"
 
-globby@^13.1.2:
+globby@^13.1.3:
   version "13.1.3"
   resolved "https://registry.yarnpkg.com/globby/-/globby-13.1.3.tgz#f62baf5720bcb2c1330c8d4ef222ee12318563ff"
   dependencies:
@@ -6077,6 +6076,10 @@ hmac-drbg@^1.0.1:
     minimalistic-assert "^1.0.0"
     minimalistic-crypto-utils "^1.0.1"
 
+hookable@^5.4.2:
+  version "5.4.2"
+  resolved "https://registry.yarnpkg.com/hookable/-/hookable-5.4.2.tgz#6a1d3c4b3cb5b4262f99b3070ce0ee92c9c78049"
+
 hosted-git-info@^2.1.4:
   version "2.8.9"
   resolved "https://registry.npmjs.org/hosted-git-info/-/hosted-git-info-2.8.9.tgz"
@@ -6289,6 +6292,10 @@ ignore@^5.1.1, ignore@^5.1.4, ignore@^5.1.8:
 ignore@^5.2.0:
   version "5.2.0"
   resolved "https://registry.yarnpkg.com/ignore/-/ignore-5.2.0.tgz#6d3bac8fa7fe0d45d9f9be7bac2fc279577e345a"
+
+ignore@^5.2.4:
+  version "5.2.4"
+  resolved "https://registry.yarnpkg.com/ignore/-/ignore-5.2.4.tgz#a291c0c6178ff1b960befe47fcdec301674a6324"
 
 import-cwd@^2.0.0:
   version "2.1.0"
@@ -7229,6 +7236,10 @@ jiti@^1.16.0:
   version "1.16.1"
   resolved "https://registry.yarnpkg.com/jiti/-/jiti-1.16.1.tgz#48529b29c974f374a433f3a8a2760c2471e076ab"
 
+jiti@^1.16.2:
+  version "1.16.2"
+  resolved "https://registry.yarnpkg.com/jiti/-/jiti-1.16.2.tgz#75f7a0a8fde4a0e57e576f7d329491d588db89cf"
+
 jiti@^1.9.2:
   version "1.10.1"
   resolved "https://registry.npmjs.org/jiti/-/jiti-1.10.1.tgz"
@@ -7341,7 +7352,7 @@ json5@^1.0.1:
   dependencies:
     minimist "^1.2.0"
 
-json5@^2.1.1, json5@^2.1.2, json5@^2.2.1, json5@^2.2.2:
+json5@^2.1.1, json5@^2.1.2, json5@^2.2.1, json5@^2.2.2, json5@^2.2.3:
   version "2.2.3"
   resolved "https://registry.yarnpkg.com/json5/-/json5-2.2.3.tgz#78cd6f1a19bdc12b73db5ad0c61efd66c1e29283"
 
@@ -7445,18 +7456,18 @@ lines-and-columns@^1.1.6:
   version "1.1.6"
   resolved "https://registry.npmjs.org/lines-and-columns/-/lines-and-columns-1.1.6.tgz"
 
-listhen@^1.0.0, listhen@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/listhen/-/listhen-1.0.1.tgz#31054d08d850ad21473768085a50a8b34a635070"
+listhen@^1.0.0, listhen@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/listhen/-/listhen-1.0.2.tgz#3332af0cf77dd914e12d125c70a9c6aed9537033"
   dependencies:
     clipboardy "^3.0.0"
     colorette "^2.0.19"
-    defu "^6.1.1"
-    get-port-please "^2.6.1"
+    defu "^6.1.2"
+    get-port-please "^3.0.1"
     http-shutdown "^1.2.2"
     ip-regex "^5.0.0"
     node-forge "^1.3.1"
-    ufo "^1.0.0"
+    ufo "^1.0.1"
 
 load-json-file@^4.0.0:
   version "4.0.0"
@@ -7491,9 +7502,9 @@ loader-utils@^2.0.0:
     emojis-list "^3.0.0"
     json5 "^2.1.2"
 
-local-pkg@^0.4.2:
-  version "0.4.2"
-  resolved "https://registry.yarnpkg.com/local-pkg/-/local-pkg-0.4.2.tgz#13107310b77e74a0e513147a131a2ba288176c2f"
+local-pkg@^0.4.3:
+  version "0.4.3"
+  resolved "https://registry.yarnpkg.com/local-pkg/-/local-pkg-0.4.3.tgz#0ff361ab3ae7f1c19113d9bb97b98b905dbc4963"
 
 locate-path@^2.0.0:
   version "2.0.0"
@@ -7864,9 +7875,9 @@ mdast-util-gfm@^2.0.0:
     mdast-util-gfm-task-list-item "^1.0.0"
     mdast-util-to-markdown "^1.0.0"
 
-mdast-util-to-hast@^12.1.0, mdast-util-to-hast@^12.2.4:
-  version "12.2.5"
-  resolved "https://registry.yarnpkg.com/mdast-util-to-hast/-/mdast-util-to-hast-12.2.5.tgz#91532ebd929a7def21585034f7901eb367d2d272"
+mdast-util-to-hast@^12.1.0, mdast-util-to-hast@^12.2.6:
+  version "12.2.6"
+  resolved "https://registry.yarnpkg.com/mdast-util-to-hast/-/mdast-util-to-hast-12.2.6.tgz#fb90830f427de8d2a7518753e560435531b97ee6"
   dependencies:
     "@types/hast" "^2.0.0"
     "@types/mdast" "^3.0.0"
@@ -8474,6 +8485,15 @@ mlly@^1.0.0:
     pathe "^1.0.0"
     pkg-types "^1.0.0"
     ufo "^1.0.0"
+
+mlly@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/mlly/-/mlly-1.1.0.tgz#9e23c5e675ef7b10cc47ee6281795cb1a7aa3aa2"
+  dependencies:
+    acorn "^8.8.1"
+    pathe "^1.0.0"
+    pkg-types "^1.0.1"
+    ufo "^1.0.1"
 
 mobile-detect@^1.4.4:
   version "1.4.5"
@@ -9205,9 +9225,9 @@ path-type@^4.0.0:
   version "4.0.0"
   resolved "https://registry.npmjs.org/path-type/-/path-type-4.0.0.tgz"
 
-pathe@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/pathe/-/pathe-1.0.0.tgz#135fc11464fc57c84ef93d5c5ed21247e24571df"
+pathe@^1.0.0, pathe@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/pathe/-/pathe-1.1.0.tgz#e2e13f6c62b31a3289af4ba19886c230f295ec03"
 
 pbkdf2@^3.0.3:
   version "3.1.2"
@@ -10801,9 +10821,9 @@ shell-quote@^1.6.1:
   version "1.7.3"
   resolved "https://registry.yarnpkg.com/shell-quote/-/shell-quote-1.7.3.tgz#aa40edac170445b9a431e17bb62c0b881b9c4123"
 
-shiki-es@^0.1.2:
-  version "0.1.2"
-  resolved "https://registry.yarnpkg.com/shiki-es/-/shiki-es-0.1.2.tgz#37176c6ff8d734f95e27560b62e1230c9a90c0cb"
+shiki-es@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/shiki-es/-/shiki-es-0.2.0.tgz#ae5bced62dca0ba46ee81149e68d428565a3e6fb"
 
 side-channel@^1.0.4:
   version "1.0.4"
@@ -11795,7 +11815,7 @@ unbox-primitive@^1.0.1:
     has-symbols "^1.0.2"
     which-boxed-primitive "^1.0.2"
 
-unctx@^2.1.0:
+unctx@^2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/unctx/-/unctx-2.1.1.tgz#415b07cf6ce42fad59ae1e4fa42ace2e71f4372d"
   dependencies:
@@ -11850,17 +11870,17 @@ unified@^9.1.0:
     trough "^1.0.0"
     vfile "^4.0.0"
 
-unimport@^1.0.1:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/unimport/-/unimport-1.1.0.tgz#3101c6335376cbd9e0b84036a1ca492475d54054"
+unimport@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/unimport/-/unimport-2.0.1.tgz#2a0e2bf90416d74d2287f64b3e00acd49b1781d6"
   dependencies:
     "@rollup/pluginutils" "^5.0.2"
     escape-string-regexp "^5.0.0"
     fast-glob "^3.2.12"
-    local-pkg "^0.4.2"
+    local-pkg "^0.4.3"
     magic-string "^0.27.0"
-    mlly "^1.0.0"
-    pathe "^1.0.0"
+    mlly "^1.1.0"
+    pathe "^1.1.0"
     pkg-types "^1.0.1"
     scule "^1.0.0"
     strip-literal "^1.0.0"
@@ -11907,9 +11927,9 @@ unique-slug@^3.0.0:
   dependencies:
     imurmurhash "^0.1.4"
 
-unist-builder@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/unist-builder/-/unist-builder-3.0.0.tgz#728baca4767c0e784e1e64bb44b5a5a753021a04"
+unist-builder@^3.0.0, unist-builder@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/unist-builder/-/unist-builder-3.0.1.tgz#258b89dcadd3c973656b2327b347863556907f58"
   dependencies:
     "@types/unist" "^2.0.0"
 
@@ -11931,9 +11951,9 @@ unist-util-is@^5.0.0:
   version "5.1.1"
   resolved "https://registry.npmjs.org/unist-util-is/-/unist-util-is-5.1.1.tgz"
 
-unist-util-position@^4.0.0, unist-util-position@^4.0.3:
-  version "4.0.3"
-  resolved "https://registry.yarnpkg.com/unist-util-position/-/unist-util-position-4.0.3.tgz#5290547b014f6222dff95c48d5c3c13a88fadd07"
+unist-util-position@^4.0.0, unist-util-position@^4.0.4:
+  version "4.0.4"
+  resolved "https://registry.yarnpkg.com/unist-util-position/-/unist-util-position-4.0.4.tgz#93f6d8c7d6b373d9b825844645877c127455f037"
   dependencies:
     "@types/unist" "^2.0.0"
 
@@ -11986,9 +12006,9 @@ unist-util-visit@^3.0.0:
     unist-util-is "^5.0.0"
     unist-util-visit-parents "^4.0.0"
 
-unist-util-visit@^4.0.0, unist-util-visit@^4.1.0, unist-util-visit@^4.1.1:
-  version "4.1.1"
-  resolved "https://registry.yarnpkg.com/unist-util-visit/-/unist-util-visit-4.1.1.tgz#1c4842d70bd3df6cc545276f5164f933390a9aad"
+unist-util-visit@^4.0.0, unist-util-visit@^4.1.0, unist-util-visit@^4.1.1, unist-util-visit@^4.1.2:
+  version "4.1.2"
+  resolved "https://registry.yarnpkg.com/unist-util-visit/-/unist-util-visit-4.1.2.tgz#125a42d1eb876283715a3cb5cceaa531828c72e2"
   dependencies:
     "@types/unist" "^2.0.0"
     unist-util-is "^5.0.0"
@@ -12042,12 +12062,12 @@ unstorage@^1.0.1:
     ufo "^1.0.0"
     ws "^8.11.0"
 
-untyped@^1.0.0:
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/untyped/-/untyped-1.2.1.tgz#3ad645a4615a5bcb073f50d7873ea82d98b6de87"
+untyped@^1.2.2:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/untyped/-/untyped-1.2.2.tgz#d442a5d4b4281b5344cefed318736eb480b70c2f"
   dependencies:
-    "@babel/core" "^7.20.7"
-    "@babel/standalone" "^7.20.11"
+    "@babel/core" "^7.20.12"
+    "@babel/standalone" "^7.20.12"
     "@babel/types" "^7.20.7"
     scule "^1.0.0"
 
@@ -12606,9 +12626,9 @@ ws@^7.3.1, ws@^7.4.5:
   version "7.5.0"
   resolved "https://registry.npmjs.org/ws/-/ws-7.5.0.tgz"
 
-ws@^8.11.0:
-  version "8.11.0"
-  resolved "https://registry.yarnpkg.com/ws/-/ws-8.11.0.tgz#6a0d36b8edfd9f96d8b25683db2f8d7de6e8e143"
+ws@^8.11.0, ws@^8.12.0:
+  version "8.12.0"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-8.12.0.tgz#485074cc392689da78e1828a9ff23585e06cddd8"
 
 ws@~8.2.3:
   version "8.2.3"
