@@ -1795,9 +1795,9 @@
     std-env "^2.3.0"
     ufo "^0.7.4"
 
-"@nuxt/content@^2.4.1":
-  version "2.4.1"
-  resolved "https://registry.yarnpkg.com/@nuxt/content/-/content-2.4.1.tgz#b302fb2762d869b9413721e53ea745371faa1004"
+"@nuxt/content@^2.4.2":
+  version "2.4.2"
+  resolved "https://registry.yarnpkg.com/@nuxt/content/-/content-2.4.2.tgz#d297385aa2a060de22e070f902390833f2a202ed"
   dependencies:
     "@nuxt/kit" "3.1.1"
     consola "^2.15.3"
