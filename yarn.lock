@@ -4794,9 +4794,9 @@ emojis-list@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/emojis-list/-/emojis-list-3.0.0.tgz#5570662046ad29e2e916e71aae260abdff4f6a78"
 
-emoticon@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.npmjs.org/emoticon/-/emoticon-4.0.0.tgz"
+emoticon@^4.0.0, emoticon@^4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/emoticon/-/emoticon-4.0.1.tgz#2d2bbbf231ce3a5909e185bbb64a9da703a1e749"
 
 encodeurl@~1.0.2:
   version "1.0.2"
@@ -7788,10 +7788,11 @@ mdast-util-definitions@^5.0.0:
     "@types/unist" "^2.0.0"
     unist-util-visit "^3.0.0"
 
-mdast-util-find-and-replace@^2.0.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/mdast-util-find-and-replace/-/mdast-util-find-and-replace-2.2.0.tgz#6167edf16c2fd79e7213024544575f304151953f"
+mdast-util-find-and-replace@^2.0.0, mdast-util-find-and-replace@^2.2.2:
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/mdast-util-find-and-replace/-/mdast-util-find-and-replace-2.2.2.tgz#cc2b774f7f3630da4bd592f61966fecade8b99b1"
   dependencies:
+    "@types/mdast" "^3.0.0"
     escape-string-regexp "^5.0.0"
     unist-util-is "^5.0.0"
     unist-util-visit-parents "^5.0.0"
@@ -10369,13 +10370,21 @@ relateurl@^0.2.7:
   version "0.2.7"
   resolved "https://registry.npmjs.org/relateurl/-/relateurl-0.2.7.tgz"
 
-remark-emoji@3.0.2, remark-emoji@^3.0.2:
+remark-emoji@3.0.2:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/remark-emoji/-/remark-emoji-3.0.2.tgz#786e88af1ecae682d74d7e1219989f34708205da"
   dependencies:
     emoticon "^4.0.0"
     node-emoji "^1.11.0"
     unist-util-visit "^4.1.0"
+
+remark-emoji@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/remark-emoji/-/remark-emoji-3.1.0.tgz#aef28ee28d078ed1d5a9ab811ad44b695797183d"
+  dependencies:
+    emoticon "^4.0.1"
+    mdast-util-find-and-replace "^2.2.2"
+    node-emoji "^1.11.0"
 
 remark-gfm@^3.0.1:
   version "3.0.1"
