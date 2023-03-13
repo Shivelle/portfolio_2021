@@ -2150,9 +2150,9 @@
     eslint-plugin-unicorn "^28.0.2"
     eslint-plugin-vue "^7.9.0"
 
-"@nuxtjs/eslint-module@^4.0.1":
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/@nuxtjs/eslint-module/-/eslint-module-4.0.1.tgz#bdacd545eed89b4d94261c4696a0af6d5f43ef42"
+"@nuxtjs/eslint-module@^4.0.2":
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/eslint-module/-/eslint-module-4.0.2.tgz#5d4d83d39e8d34a0b3adfef175e0adddaed35c7b"
   dependencies:
     "@nuxt/kit" "^3.2.3"
     eslint-webpack-plugin "^4.0.0"
