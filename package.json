@@ -25,7 +25,7 @@
     "devicon": "^2.15.1",
     "i18n": "^0.15.1",
     "nuxt": "^2.15.8",
-    "nuxt-buefy": "^0.4.25",
+    "nuxt-buefy": "^0.4.26",
     "nuxt-i18n": "^6.28.1",
     "remark-emoji": "^4.0.0",
     "stylelint-scss": "^5.2.1"
