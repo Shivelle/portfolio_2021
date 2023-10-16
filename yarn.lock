@@ -3733,9 +3733,9 @@ bser@2.1.1:
   dependencies:
     node-int64 "^0.4.0"
 
-buefy@^0.9.22, buefy@^0.9.23:
-  version "0.9.23"
-  resolved "https://registry.yarnpkg.com/buefy/-/buefy-0.9.23.tgz#47819ed44781adcfb805e370f84988f37291d5fe"
+buefy@^0.9.23, buefy@^0.9.25:
+  version "0.9.25"
+  resolved "https://registry.yarnpkg.com/buefy/-/buefy-0.9.25.tgz#1255848d9a8e2ac18f2d824ef39fc72beb48a69f"
   dependencies:
     bulma "0.9.4"
 
