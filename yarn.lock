@@ -5402,9 +5402,9 @@ eslint-plugin-vue@^7.9.0:
     semver "^6.3.0"
     vue-eslint-parser "^7.10.0"
 
-eslint-plugin-vue@^9.22.0, eslint-plugin-vue@^9.4.0:
-  version "9.22.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-vue/-/eslint-plugin-vue-9.22.0.tgz#e8a625adb0b6ce3b65635dd74fec8345146f8e26"
+eslint-plugin-vue@^9.23.0, eslint-plugin-vue@^9.4.0:
+  version "9.23.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-vue/-/eslint-plugin-vue-9.23.0.tgz#1354a33b0cd21e0cb373557ff73c5d7a6698fbcd"
   dependencies:
     "@eslint-community/eslint-utils" "^4.4.0"
     natural-compare "^1.4.0"
