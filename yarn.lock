@@ -11350,9 +11350,9 @@ sass-graph@^4.0.1:
     scss-tokenizer "^0.4.3"
     yargs "^17.2.1"
 
-sass-loader@^13:
-  version "13.3.3"
-  resolved "https://registry.yarnpkg.com/sass-loader/-/sass-loader-13.3.3.tgz#60df5e858788cffb1a3215e5b92e9cba61e7e133"
+sass-loader@^14:
+  version "14.1.1"
+  resolved "https://registry.yarnpkg.com/sass-loader/-/sass-loader-14.1.1.tgz#2c9d2277c5b1c5fe789cd0570c046d8ad23cb7ca"
   dependencies:
     neo-async "^2.6.2"
 
