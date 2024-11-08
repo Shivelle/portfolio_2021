@@ -2913,9 +2913,9 @@
   version "0.27.8"
   resolved "https://registry.yarnpkg.com/@sinclair/typebox/-/typebox-0.27.8.tgz#6667fac16c436b5434a387a34dedb013198f6e6e"
 
-"@sindresorhus/is@^3.1.2":
-  version "3.1.2"
-  resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-3.1.2.tgz#548650de521b344e3781fbdb0ece4aa6f729afb8"
+"@sindresorhus/is@^4.6.0":
+  version "4.6.0"
+  resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-4.6.0.tgz#3c7c9c46e678feefe7a2e5bb609d3dbd665ffb3f"
 
 "@sinonjs/commons@^1.7.0":
   version "1.8.3"
@@ -3064,9 +3064,9 @@
   dependencies:
     "@types/unist" "*"
 
-"@types/mdast@^4.0.0", "@types/mdast@^4.0.1", "@types/mdast@^4.0.2":
-  version "4.0.2"
-  resolved "https://registry.yarnpkg.com/@types/mdast/-/mdast-4.0.2.tgz#4695661024ffbd9e52cf71e05c69a1f08c0792f6"
+"@types/mdast@^4.0.0", "@types/mdast@^4.0.1", "@types/mdast@^4.0.2", "@types/mdast@^4.0.4":
+  version "4.0.4"
+  resolved "https://registry.yarnpkg.com/@types/mdast/-/mdast-4.0.4.tgz#7ccf72edd2f1aa7dd3437e180c64373585804dd6"
   dependencies:
     "@types/unist" "*"
 
@@ -9812,11 +9812,11 @@ node-cache@^4.1.1:
     clone "2.x"
     lodash "^4.17.15"
 
-node-emoji@^2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/node-emoji/-/node-emoji-2.1.0.tgz#93c99b0d3dfe7d5e37c056aded389e013c72d0c5"
+node-emoji@^2.1.0, node-emoji@^2.1.3:
+  version "2.1.3"
+  resolved "https://registry.yarnpkg.com/node-emoji/-/node-emoji-2.1.3.tgz#93cfabb5cc7c3653aa52f29d6ffb7927d8047c06"
   dependencies:
-    "@sindresorhus/is" "^3.1.2"
+    "@sindresorhus/is" "^4.6.0"
     char-regex "^1.0.2"
     emojilib "^2.4.0"
     skin-tone "^2.0.0"
@@ -11668,7 +11668,7 @@ relateurl@^0.2.7:
   version "0.2.7"
   resolved "https://registry.npmjs.org/relateurl/-/relateurl-0.2.7.tgz"
 
-remark-emoji@^4.0.0, remark-emoji@^4.0.1:
+remark-emoji@^4.0.0:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/remark-emoji/-/remark-emoji-4.0.1.tgz#671bfda668047689e26b2078c7356540da299f04"
   dependencies:
@@ -11676,6 +11676,16 @@ remark-emoji@^4.0.0, remark-emoji@^4.0.1:
     emoticon "^4.0.1"
     mdast-util-find-and-replace "^3.0.1"
     node-emoji "^2.1.0"
+    unified "^11.0.4"
+
+remark-emoji@^5.0.1:
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/remark-emoji/-/remark-emoji-5.0.1.tgz#fb08ef9f5a1a036e765d68ac3dcc1b81624f4f6f"
+  dependencies:
+    "@types/mdast" "^4.0.4"
+    emoticon "^4.0.1"
+    mdast-util-find-and-replace "^3.0.1"
+    node-emoji "^2.1.3"
     unified "^11.0.4"
 
 remark-gfm@^3.0.1:
