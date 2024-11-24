@@ -2,7 +2,7 @@
 
 This is the 2021 version of my personal portfolio, made with Nuxt.js(v2.x), using Nuxt Content for a blog, Nuxt I18n for English/German versions of the page and Buefy as CSS framework. 
 
-*** This is an old version still using Nuxt 2. *** 
+*** You may use this a reference but should use a newer Nuxt version. *** 
 
 ### Docs
 Check out these documentation for more information:
